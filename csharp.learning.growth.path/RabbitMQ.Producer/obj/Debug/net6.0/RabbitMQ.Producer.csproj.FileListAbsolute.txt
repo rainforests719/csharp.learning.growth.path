@@ -1,0 +1,17 @@
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.csproj.AssemblyReference.cache
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.AssemblyInfoInputs.cache
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.AssemblyInfo.cs
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.csproj.CoreCompileInputs.cache
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\bin\Debug\net6.0\RabbitMQ.Producer.exe
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\bin\Debug\net6.0\RabbitMQ.Producer.deps.json
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\bin\Debug\net6.0\RabbitMQ.Producer.runtimeconfig.json
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\bin\Debug\net6.0\RabbitMQ.Producer.dll
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\bin\Debug\net6.0\RabbitMQ.Producer.pdb
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\bin\Debug\net6.0\RabbitMQ.Client.dll
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.csproj.CopyComplete
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.dll
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\refint\RabbitMQ.Producer.dll
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.pdb
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\RabbitMQ.Producer.genruntimeconfig.cache
+E:\Git\个人学习_githup\csharp.learning.growth.path\csharp.learning.growth.path\RabbitMQ.Producer\obj\Debug\net6.0\ref\RabbitMQ.Producer.dll

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uaPW4DKz+/RLcAvRKN682O8OxJm4IJt7QM8LTXIQYHSmcTB0pYyF/rLEyTh7d7kVa2n+9+UfLWLjWpdZwxbNKg==",
+  "success": true,
+  "projectFilePath": "E:\\Git\\个人学习_githup\\csharp.learning.growth.path\\csharp.learning.growth.path\\RabbitMQ.Producer\\RabbitMQ.Producer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\penlin.huang\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\penlin.huang\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\penlin.huang\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}
