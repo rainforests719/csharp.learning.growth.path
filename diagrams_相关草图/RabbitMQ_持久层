@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-07-24T04:09:00.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.2.0" etag="UDage3mPD0nqoUDsb_4Y" type="github"><diagram id="U5ArYBF3PFUT-l1ywgpU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-24T04:21:26.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="RoI0W92-NtT8TGIXhn6N" version="20.2.0" type="github">
+  <diagram id="U5ArYBF3PFUT-l1ywgpU" name="第 1 页">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="200" width="430" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-2" value="持久层（逻辑概念层）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="210" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-3" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="390" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-4" value="rabbit_queue_index（队列索引）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="260" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="310" width="390" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-6" value="msg_store_persistent（负责持久化消息的持久化）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-7" value="msg_store_transient（负责非持久化消息的持久化）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="430" width="370" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-8" value="rabbit msg store（消息存储）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Comic Sans MS;fontStyle=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="320" width="195" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-9" value="&lt;h1&gt;rabbit_queue_index(队列索引)&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;负责维护队列中落盘消息的信息，包括消息的存储地点、是否已被交付给消费者、是否已被消费ack等。每个队列都有与之对应的队列索引（rabbit_queue_index）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="480" y="200" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="8c-ePOaF9gCul7VSuPAp-10" value="&lt;h1&gt;rabbit msg store(消息存储)&lt;/h1&gt;&lt;p&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;* rabbit msg store:&lt;/font&gt; 每一个节点只有一个，以键值对的方式存储消息，它是被所有的队列共享的。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;* msg_store_persistent: &lt;/font&gt;负责持久化消息的持久化，重启后消息不会丢失。&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;* msg_store_transient:&lt;/font&gt; 负责非持久化消息的持久化，重启后消息丢失。&lt;/b&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="480" y="310" width="470" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
