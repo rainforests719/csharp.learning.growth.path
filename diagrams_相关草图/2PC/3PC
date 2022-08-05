@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T11:05:17.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sYby65f4EnJRDojv9evP" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T11:06:08.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="M_cuGb_UhwWL4umb0Z_8" version="20.2.2" type="github">
   <diagram id="_lqwlaxcKyZQ_tR7LLa9" name="第 1 页">
     <mxGraphModel dx="1067" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -35,7 +35,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZsD728XZZRmff3cJ_1l0-2" value="参与者" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="390" y="110" width="170" height="360" as="geometry" />
+          <mxGeometry x="390" y="110" width="130" height="350" as="geometry" />
         </mxCell>
         <mxCell id="ZsD728XZZRmff3cJ_1l0-18" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=none;" vertex="1" parent="ZsD728XZZRmff3cJ_1l0-2">
           <mxGeometry x="-250" y="159" width="410" height="80" as="geometry" />
@@ -84,7 +84,7 @@
         </mxCell>
         <mxCell id="ZsD728XZZRmff3cJ_1l0-14" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="469.5" y="432" as="sourcePoint" />
+            <mxPoint x="450" y="432" as="sourcePoint" />
             <mxPoint x="189.5" y="432" as="targetPoint" />
           </mxGeometry>
         </mxCell>
