@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T06:24:42.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2mdWI5hc7zjgLm1Woa4A" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T06:31:54.701Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tVq2hqegSG1_o1hPXJl1" version="20.2.2" type="github">
   <diagram id="u2l9Zt-yLO_Qi3WcgOfx" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,7 +27,7 @@
         <mxCell id="zwbNrjH0XnWn8lKJkrUz-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;dashed=1;" edge="1" parent="1" source="zwbNrjH0XnWn8lKJkrUz-4" target="zwbNrjH0XnWn8lKJkrUz-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zwbNrjH0XnWn8lKJkrUz-13" value="&lt;b&gt;事务A尝试获取记录B的锁，等待事务B释放&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="zwbNrjH0XnWn8lKJkrUz-10">
+        <mxCell id="zwbNrjH0XnWn8lKJkrUz-13" value="&lt;b&gt;事务A获取记录B的锁，等待事务B释放&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;" vertex="1" connectable="0" parent="zwbNrjH0XnWn8lKJkrUz-10">
           <mxGeometry x="0.0144" y="7" relative="1" as="geometry">
             <mxPoint x="-31" y="-18" as="offset" />
           </mxGeometry>
@@ -46,7 +46,7 @@
         <mxCell id="zwbNrjH0XnWn8lKJkrUz-11" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.383;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;dashed=1;" edge="1" parent="1" source="zwbNrjH0XnWn8lKJkrUz-5" target="zwbNrjH0XnWn8lKJkrUz-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zwbNrjH0XnWn8lKJkrUz-12" value="事务B尝试获取记录A的锁，等待事务A释放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;fontStyle=1" vertex="1" connectable="0" parent="zwbNrjH0XnWn8lKJkrUz-11">
+        <mxCell id="zwbNrjH0XnWn8lKJkrUz-12" value="事务B获取记录A的锁，等待事务A释放" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;fontStyle=1" vertex="1" connectable="0" parent="zwbNrjH0XnWn8lKJkrUz-11">
           <mxGeometry x="-0.0892" y="10" relative="1" as="geometry">
             <mxPoint x="40" y="17" as="offset" />
           </mxGeometry>
@@ -54,8 +54,8 @@
         <mxCell id="zwbNrjH0XnWn8lKJkrUz-5" value="事务B" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="520" y="170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="zwbNrjH0XnWn8lKJkrUz-14" value="两个事务都在等待各自锁的释放，导致发送死锁。" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="240" y="190" width="240" height="30" as="geometry" />
+        <mxCell id="zwbNrjH0XnWn8lKJkrUz-14" value="两个事务都在等待对方锁的释放，导致发生死锁。" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="210" y="190" width="270" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
