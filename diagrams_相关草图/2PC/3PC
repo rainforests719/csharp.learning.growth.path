@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T11:06:21.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WW90K9rQpNJxsTg6mJea" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T11:08:26.193Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ARxyeTyiqbGdHOre9OUf" version="20.2.2" type="github">
   <diagram id="_lqwlaxcKyZQ_tR7LLa9" name="第 1 页">
     <mxGraphModel dx="1067" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -87,6 +87,69 @@
             <mxPoint x="450" y="432" as="sourcePoint" />
             <mxPoint x="189.5" y="432" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-23" value="协调者" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="640" width="100" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-24" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;" edge="1" parent="ZsD728XZZRmff3cJ_1l0-23" target="ZsD728XZZRmff3cJ_1l0-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="90" as="sourcePoint" />
+            <mxPoint x="110" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-27" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="ZsD728XZZRmff3cJ_1l0-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="210" as="sourcePoint" />
+            <mxPoint x="314.5" y="210" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-28" value="参与者" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="390" y="640" width="130" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-30" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=none;" vertex="1" parent="ZsD728XZZRmff3cJ_1l0-28">
+          <mxGeometry x="-257" y="180" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-32" value="第二阶段&lt;br&gt;正式提交" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#FF0000;fontStyle=1" vertex="1" parent="ZsD728XZZRmff3cJ_1l0-28">
+          <mxGeometry x="93" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-42" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=#9673a6;" edge="1" parent="ZsD728XZZRmff3cJ_1l0-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="250" as="sourcePoint" />
+            <mxPoint x="-200.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-33" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;" edge="1" parent="1" source="ZsD728XZZRmff3cJ_1l0-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="439.5" y="772" as="sourcePoint" />
+            <mxPoint x="190" y="772" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="310" y="772" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-34" value="CanCommit ?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="270" y="700" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-35" value="Yes/No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="285" y="740" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-38" value="DoCommit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="822" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-39" value="HaveCommit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="287" y="868" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-40" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="700" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZsD728XZZRmff3cJ_1l0-41" value="第一阶段&lt;br&gt;准备/询问" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="483" y="730" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
