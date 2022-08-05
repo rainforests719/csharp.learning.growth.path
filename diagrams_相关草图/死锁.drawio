@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-05T07:56:20.076Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="G920NEcVSjxsyev_fxoB" version="20.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-05T08:35:14.211Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zPzda3TEhkHu_MSOGuW6" version="20.2.2" type="github">
   <diagram id="u2l9Zt-yLO_Qi3WcgOfx" name="第 1 页">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1067" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,9 +83,6 @@
         </mxCell>
         <mxCell id="zwbNrjH0XnWn8lKJkrUz-24" value="Consistency&lt;br&gt;（一致性）" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="294" y="580" width="85" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="zwbNrjH0XnWn8lKJkrUz-25" value="&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;CA: ACID，强一致性保证。&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#000000&quot;&gt;&lt;b&gt;AP：BASE，最终一致性保证。&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="440" y="500" width="300" height="155" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
