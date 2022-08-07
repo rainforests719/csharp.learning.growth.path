@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T11:44:36.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zX0bVdYCQYwOIMFNHNxO" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T11:48:32.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BbJrq6b_QMfbLAWf4Of0" version="20.2.3" type="github">
   <diagram id="4SgXLouYjEOuyQv9LngK" name="第 1 页">
     <mxGraphModel dx="1067" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -68,11 +68,19 @@
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-34" value="MessageLoggers、ScopeLoggers 赋值给logger实例&lt;br&gt;（_loogers[categoryName] = logger）" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;sketch=1;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="78.5" y="890" width="292.5" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontColor=#FF0000;" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="224" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-37" value="Dictionary&amp;lt;string, Logger&amp;gt; _loggers = new Dictionary&amp;lt;string, Logger&amp;gt;(StringComparer.Ordinal);" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="99" y="993" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-40" value="将得到的 logger 实例放入到 _loggers 缓存" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="424" y="905" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-42" value="&lt;font color=&quot;#000000&quot;&gt;Logger循环（&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;LoggerProvider 提供的 Logger，由它进行日志的写入&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#FF0000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="99" y="1110" width="281" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
