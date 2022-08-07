@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T11:53:29.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="h2UA4d1IdJugpuUP8p8k" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T11:54:27.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="SdmUGq_zESyso8ALLH8R" version="20.2.3" type="github">
   <diagram id="4SgXLouYjEOuyQv9LngK" name="第 1 页">
     <mxGraphModel dx="1067" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,10 +83,16 @@
           <mxGeometry x="99" y="1110" width="281" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-43" value="Logger 并不负责日志的写入（也就是&lt;span style=&quot;&quot;&gt;LoggerFactory 创建的 Logger 不负责日志的写入&lt;/span&gt;），它只是负责循环&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;LoggerProvider 的个数，由它们相应的 Logger 实例负责真正的日志写入。&lt;/span&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="460" y="1093" width="310" height="75" as="geometry" />
+          <mxGeometry x="459" y="1092" width="320" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontColor=#FF0000;" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-47" target="3jJQ_v2wVvVQbsUMUlWp-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-47" value="new Logger()" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=1;sketch=1;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="22" y="445" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-49" value="Logger 继承 ILogger 实现 Log 方法" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="210" y="445" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
