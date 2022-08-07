@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-07T11:51:56.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yOWSePulWcMQtVmH352b" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-07T11:53:29.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="h2UA4d1IdJugpuUP8p8k" version="20.2.3" type="github">
   <diagram id="4SgXLouYjEOuyQv9LngK" name="第 1 页">
     <mxGraphModel dx="1067" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,26 +10,23 @@
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-3" value="CreateLogger(string categoryName)&lt;br&gt;logger = new Logger(CreateLoggers(categoryName));" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="30" y="585" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontStyle=1" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-4" target="3jJQ_v2wVvVQbsUMUlWp-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="90" y="200" />
-              <mxPoint x="90" y="250" />
-              <mxPoint x="160" y="250" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#FF0000;" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-4" target="3jJQ_v2wVvVQbsUMUlWp-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-4" value="LoggerProvider" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="180" width="130" height="40" as="geometry" />
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontColor=#FF0000;" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-4" target="3jJQ_v2wVvVQbsUMUlWp-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontStyle=1" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-6" target="3jJQ_v2wVvVQbsUMUlWp-8">
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-4" value="LoggerProvider" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="20" y="365" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#FF0000;" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-6" target="3jJQ_v2wVvVQbsUMUlWp-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-6" value="AddProvider(ILoggerProvider provider)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="280" width="260" height="50" as="geometry" />
+          <mxGeometry x="190" y="360" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-8" value="_providerRegistrations.Add((provider)&lt;br&gt;ProviderRegistration 只是对 LoggerProvider 封装" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="30" y="380" width="300" height="70" as="geometry" />
+          <mxGeometry x="500" y="350" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontStyle=1" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-17" target="3jJQ_v2wVvVQbsUMUlWp-29">
           <mxGeometry relative="1" as="geometry" />
@@ -43,7 +40,7 @@
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontStyle=1" edge="1" parent="1" source="3jJQ_v2wVvVQbsUMUlWp-24" target="3jJQ_v2wVvVQbsUMUlWp-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-24" value="LoggerFactory" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-24" value="LoggerFactory" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="30" y="520" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-29" value="根据Provider 的个数创建一组 LoggerInfomation" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;" vertex="1" parent="1">
@@ -87,6 +84,9 @@
         </mxCell>
         <mxCell id="3jJQ_v2wVvVQbsUMUlWp-43" value="Logger 并不负责日志的写入（也就是&lt;span style=&quot;&quot;&gt;LoggerFactory 创建的 Logger 不负责日志的写入&lt;/span&gt;），它只是负责循环&amp;nbsp;&lt;span style=&quot;text-align: center;&quot;&gt;LoggerProvider 的个数，由它们相应的 Logger 实例负责真正的日志写入。&lt;/span&gt;" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="460" y="1093" width="310" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="3jJQ_v2wVvVQbsUMUlWp-47" value="new Logger()" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=1;sketch=1;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="22" y="445" width="125" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
