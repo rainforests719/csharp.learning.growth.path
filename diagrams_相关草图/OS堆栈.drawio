@@ -1,1 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2022-08-13T05:52:18.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.3" etag="aYRT6t6UjrW_M4xKXM2x" type="github"><diagram id="U1LVoXLxvBi8Ed-0ENzQ">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-13T05:59:24.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_PJAokVMNddGvrRgi1nr" version="20.2.3" type="github">
+  <diagram id="U1LVoXLxvBi8Ed-0ENzQ" name="第 1 页">
+    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-1" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="120" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-2" value="内核" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="290" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-3" value="固定大小" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-4" value="APP（用户空间）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-5" value="可动态扩容" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="120" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pic1.zhimg.com/v2-449604d2b17cfeb9f15354ebb5ca3158_r.jpg;" vertex="1" parent="1">
+          <mxGeometry x="440" y="180" width="520" height="442" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-8" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="310" as="sourcePoint" />
+            <mxPoint x="290" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-9" value="固定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="176" y="296" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-10" value="一个OS启动时，栈的大小就固定" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontColor=#FF0000;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="290" y="140" width="120" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
