@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-13T06:16:35.750Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="oxeGqVzT3uVNdAGhiWPP" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-13T06:19:30.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0sPDk9ORlja_kp46cLl0" version="20.2.3" type="github">
   <diagram id="U1LVoXLxvBi8Ed-0ENzQ" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="MNq_9mxY0FYkvYf2XoQl-3" value="&lt;br&gt;（栈）&lt;br&gt;大小固定" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="290" y="230" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="MNq_9mxY0FYkvYf2XoQl-4" value="APP&lt;br&gt;（用户空间）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-4" value="APP" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="290" y="310" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="MNq_9mxY0FYkvYf2XoQl-5" value="（堆）&lt;br&gt;增加内存条扩容" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
