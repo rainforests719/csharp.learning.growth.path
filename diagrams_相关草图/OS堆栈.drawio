@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-13T15:13:28.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jwEOzLsmm1X6aherF19k" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-13T15:14:15.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="u62T5zPUXwZO5z8PRLky" version="20.2.3" type="github">
   <diagram id="U1LVoXLxvBi8Ed-0ENzQ" name="第 1 页">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -19,7 +19,7 @@
         <mxCell id="MNq_9mxY0FYkvYf2XoQl-5" value="（堆）&lt;br&gt;增加内存条扩容" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="290" y="360" width="120" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="MNq_9mxY0FYkvYf2XoQl-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pic1.zhimg.com/v2-449604d2b17cfeb9f15354ebb5ca3158_r.jpg;" vertex="1" parent="1">
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-6" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://pic1.zhimg.com/v2-449604d2b17cfeb9f15354ebb5ca3158_r.jpg;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="414" y="178" width="520" height="442" as="geometry" />
         </mxCell>
         <mxCell id="MNq_9mxY0FYkvYf2XoQl-8" value="" style="endArrow=classic;html=1;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" edge="1" parent="1">
@@ -122,6 +122,12 @@
         </mxCell>
         <mxCell id="MNq_9mxY0FYkvYf2XoQl-38" value="InnoBD 一群&lt;br&gt;提交事务" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;shadow=1;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="1520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-40" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;shadow=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="364" y="1370" width="20" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="MNq_9mxY0FYkvYf2XoQl-41" value="两阶段提交，准备阶段和提交阶段" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="400" y="1400" width="110" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
