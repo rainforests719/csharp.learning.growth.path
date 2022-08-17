@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T14:36:16.413Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2O2m7nNCpjH5cGsdyq5x" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T14:38:25.049Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KRvQMbessLbeEMC6hH3m" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
-    <mxGraphModel dx="3008" dy="1887" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2947" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -414,7 +414,7 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--188" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1.008;entryY=0.446;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--174" target="OYOejf1_E5I5xvv-p3r--183">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--174" value="主观下线" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--174" value="主观下线" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-780" y="1099" width="110" height="41" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--178" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--172" target="OYOejf1_E5I5xvv-p3r--175">
@@ -428,7 +428,7 @@
             <mxPoint x="-731" y="1280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--175" value="客观下线" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--175" value="客观下线" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-780" y="1180" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--182" value="&amp;nbsp;- 主观下线: 某一个哨兵认为主库下线，有可能只是这个哨兵与主库之间网络波动导致的，也就是说其它的哨兵与主库通信是正常的。&lt;br&gt;&lt;br&gt;&amp;nbsp;- 客观下线: 多数哨兵都认为主库下线了，那么主库就真的意义上的下线了。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;dashed=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
@@ -442,7 +442,7 @@
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--190" value="哨兵发起选举" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--190" value="哨兵发起选举" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-790" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--193" value="&amp;nbsp;1. 优先级最高的。&lt;br&gt;&amp;nbsp;2. 主从数据同步最接近的（也就是主库的偏移量和从库的偏移量进行对比）。&lt;br&gt;&amp;nbsp;3. ID号小的从库。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;align=left;fontStyle=1" vertex="1" parent="1">
