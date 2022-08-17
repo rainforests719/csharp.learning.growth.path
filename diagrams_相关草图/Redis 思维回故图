@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T12:05:44.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="41Flrff-nOa3NM1NpOD9" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T12:06:50.115Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9H8ghAZnlBI7f62hA9Pt" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3327" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -417,8 +417,8 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--190" value="哨兵发起选举" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-790" y="1270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--193" value="&amp;nbsp;1. 优先级最高的。&lt;br&gt;&amp;nbsp;2. 主从数据同步最接近的。&lt;br&gt;&amp;nbsp;3. ID号小的从库。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;align=left;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1110" y="1255" width="195" height="90" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--193" value="&amp;nbsp;1. 优先级最高的。&lt;br&gt;&amp;nbsp;2. 主从数据同步最接近的（也就是主库的偏移量和从库的偏移量进行对比）。&lt;br&gt;&amp;nbsp;3. ID号小的从库。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1210" y="1255" width="295" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
