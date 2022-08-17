@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T09:38:25.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="C9nGVodeN3I0sLaXgfHg" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T09:41:44.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_0gYqu4ARhzbW-iTam23" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2249" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -239,8 +239,8 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--117" value="ziplist-&amp;gt;quicklist-&amp;gt;listpack" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="860" y="465" width="180" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--120" value="ziplist 到 listpack 演进，就是为了解决“级联更新”问题。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1120" y="460" width="180" height="30" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--120" value="- ziplist 到 listpack 演进，就是为了解决“级联更新”问题。&lt;br&gt;- 初衷: Redis 想要非常极致的压缩内存。&lt;br&gt;- 所以“压缩列表”不适合存储大量数据元素，虽然内存占用很低，但是查询效率低。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1120" y="440" width="370" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
