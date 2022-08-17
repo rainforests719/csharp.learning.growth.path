@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T11:54:44.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uMUdKm4Lrtm70fwNa-ru" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T11:56:17.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="aW8pXyEI9AjzVdp_ZbMJ" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
-    <mxGraphModel dx="2635" dy="1689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3327" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -370,6 +370,12 @@
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--169" value="&amp;nbsp;-复制积压缓冲区（只有主库有）replication_backlog_buffer：这个一个环形缓冲区，基于长连接的命令传播，也会将命令写入这个缓冲区。&lt;br&gt;&amp;nbsp;-&amp;nbsp;repl-backlog-size&lt;br&gt;&lt;br&gt;&amp;nbsp;- 复制缓存区（每个从库都有一个）replication buffer： 所有的数据都是基于这个 buffer 进行传输发送的，存储从库已同步的offset偏移量，一旦发生断连，就可以拿着这个偏移量，跟主库进行对比。&lt;br&gt;&amp;nbsp;-&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, Avenir, Tahoma, Arial, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;client-output-buffer-limit&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1240" y="870" width="610" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--173" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--159" target="OYOejf1_E5I5xvv-p3r--172">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--172" value="哨兵机制&lt;br&gt;（自动主热切换，主库宕机，选择一个从库作为新主库）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-500" y="1140" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
