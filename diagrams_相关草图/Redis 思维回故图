@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T10:43:26.665Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZiHl2KO00pVibMhSUQoW" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T11:01:42.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="IPJJci_zpYyfI5jHPlNH" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3076" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -299,8 +299,16 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--140" value="AOF 日志文件过大时，带来邪能问题。&lt;br&gt;&amp;nbsp;- 写入效率低。&lt;br&gt;&amp;nbsp;- 文件太大，Redis宕机重启重放非常缓慢。&lt;br&gt;&lt;br&gt;AOF 重写非阻塞，主进程会 fork 子进程。&lt;br&gt;&amp;nbsp;- 子进程拷贝父进程的内存页表，然后父子进程执行同一块内存地址，这时候父子进程的内存地址是还没有分离的。如果父进程需要操作已存在的Key，那么就会拷贝这个Key数据重新申请内存，渐渐的父子进程的内存地址产生分离。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-870" y="407.5" width="340" height="172.5" as="geometry" />
         </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--144" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--142" target="OYOejf1_E5I5xvv-p3r--145">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-290" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--142" value="RDB 快照&lt;br&gt;（全量快照，内存中的数据全部存储到磁盘）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-270" y="449" width="210" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--145" value="&amp;nbsp;RDB fork 子进程进行操作，RDB 过程中，是不能处理写操作的。所以 Redis 采用“写时复制” 来解决 RDB 过程中不能写操作的问题。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-530" y="595" width="335" height="85" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
