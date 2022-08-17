@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T14:41:05.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="sieLsMEFLsqDLRdM4w4h" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T14:46:44.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m0LiBf-vl6a6i8Ex7HYf" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2947" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OYOejf1_E5I5xvv-p3r--169" value="&amp;nbsp;-&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;repl_backlog_buffer，复制积压缓冲区（只有主节点有）：&lt;/font&gt;这个一个环形缓冲区，基于长连接的命令传播，也会将命令写入这个缓冲区。&lt;br&gt;&amp;nbsp;-&amp;nbsp;repl-backlog-size&lt;br&gt;&lt;br&gt;&amp;nbsp;- &lt;font color=&quot;#ff0000&quot;&gt;replication buffer，复制缓存区（每个从库都有维护一个）：&lt;/font&gt; 所有的数据都是基于这个 buffer 进行传输发送的，存储从库已同步的offset偏移量，一旦发生断连，就可以拿着这个偏移量，跟主库进行对比。&lt;br&gt;&amp;nbsp;-&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, Avenir, Tahoma, Arial, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;client-output-buffer-limit&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--169" value="&amp;nbsp;-&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;repl_backlog_buffer，复制积压缓冲区（只有主节点有）：&lt;/font&gt;这个一个环形缓冲区，基于长连接的命令传播，也会将命令写入这个缓冲区，当从库重连之后就可以到这个缓冲区拿断线之后主库执行的命令，从而进行增量同步。&lt;br&gt;&amp;nbsp;-&amp;nbsp;repl-backlog-size&lt;br&gt;&lt;br&gt;&amp;nbsp;- &lt;font color=&quot;#ff0000&quot;&gt;replication buffer，复制缓存区（每个从库都有维护一个）：&lt;/font&gt; 所有的数据都是基于这个 buffer 进行传输发送的，存储从库已同步的offset偏移量，一旦发生断连，就可以拿着这个偏移量，跟主库进行对比。&lt;br&gt;&amp;nbsp;-&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, Avenir, Tahoma, Arial, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;client-output-buffer-limit&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-1240" y="870" width="610" height="130" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--196" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1310" y="785" width="1300" height="595" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--170" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-1250" y="860" width="640" height="150" as="geometry" />
+          <mxGeometry x="-1270" y="860" width="640" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--183" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1265" y="1099" width="360" height="130" as="geometry" />
@@ -393,8 +393,10 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--162" value="&lt;font color=&quot;#ff0000&quot;&gt;主从全量同步&lt;/font&gt;&lt;br&gt;（发生在从库初次加入集群以及主从之间同步发生太大的数据差异，导致环形缓冲区被覆盖）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-490" y="795" width="210" height="85" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--246" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FF0000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--163" target="OYOejf1_E5I5xvv-p3r--170">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--246" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FF0000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--163">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-630" y="935" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--163" value="&lt;font color=&quot;#ff0000&quot;&gt;主从增量同步&lt;br&gt;&lt;/font&gt;（主从全量同步完，如果发送断连）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-540" y="905" width="180" height="60" as="geometry" />
@@ -518,6 +520,9 @@
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--244" value="同时支持单点查询和范围查询，双索引机制" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="680" y="910" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--248" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FF0000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--196" target="OYOejf1_E5I5xvv-p3r--196">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
