@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T12:40:41.725Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EtTnsXuXIGdCothUCkWn" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T12:41:47.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ZJyUfbSQ1afVkgr2Ufj3" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2891" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,15 +126,17 @@
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--220" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--32" target="OYOejf1_E5I5xvv-p3r--33">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="610" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="900" y="570" />
+              <mxPoint x="800" y="560" />
+              <mxPoint x="900" y="560" />
               <mxPoint x="900" y="610" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--225" value="1. 保存元素个数超过所配置的数量，默认: 512&lt;br&gt;2. 单个元素的长度超过所配置的长度，默认: 64&lt;br&gt;一旦切换成Hash就不会在切换成ZipList了。" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" connectable="0" parent="OYOejf1_E5I5xvv-p3r--220">
           <mxGeometry x="-0.0677" y="-6" relative="1" as="geometry">
-            <mxPoint x="-67" y="8" as="offset" />
+            <mxPoint x="-24" y="19" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--32" value="压缩列表" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1" vertex="1" parent="1">
