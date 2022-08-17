@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T11:16:29.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VIokWxVsviWLTtktumUU" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T11:20:09.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="iRfQlXc-T3Ilon_j8hPs" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3327" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -341,8 +341,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--165" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--159" target="OYOejf1_E5I5xvv-p3r--163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--166" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--159" target="OYOejf1_E5I5xvv-p3r--162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--159" value="主从&lt;br&gt;（主库读写，从库只能读）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-180" y="835" width="160" height="60" as="geometry" />
+          <mxGeometry x="-200" y="840" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--162" value="主从全量同步" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-400" y="795" width="100" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--163" value="主从增量同步" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-400" y="910" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
