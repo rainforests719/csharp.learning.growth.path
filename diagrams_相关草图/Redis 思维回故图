@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T10:28:53.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="blMXvKXq__EzPEpyR1a_" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T10:38:11.764Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Zf0WNHIfJdfLmRlO9FlX" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3076" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -293,8 +293,8 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--135" value="AOF 重写机制&lt;br&gt;（可以理解为：日志压缩）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-480" y="430" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--140" value="AOF 日志文件过大时，带来邪能问题。&lt;br&gt;&amp;nbsp;- 写入效率低。&lt;br&gt;&amp;nbsp;- 文件太大，Redis宕机重启重放非常缓慢。&lt;br&gt;&lt;br&gt;AOF 重写非阻塞，主线程会 fork 子线程。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-870" y="407.5" width="340" height="85" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--140" value="AOF 日志文件过大时，带来邪能问题。&lt;br&gt;&amp;nbsp;- 写入效率低。&lt;br&gt;&amp;nbsp;- 文件太大，Redis宕机重启重放非常缓慢。&lt;br&gt;&lt;br&gt;AOF 重写非阻塞，主进程会 fork 子进程。&lt;br&gt;&amp;nbsp;- 子进程拷贝父进程的内存页表，然后父子进程执行同一块内存地址，这时候父子进程的内存地址是还没有分离的。如果父进程需要操作已存在的Key，那么就会拷贝这个Key数据重新申请内存，渐渐的父子进程的内存地址产生分离。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-870" y="407.5" width="340" height="172.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
