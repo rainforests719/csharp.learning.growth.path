@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T14:46:44.501Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m0LiBf-vl6a6i8Ex7HYf" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T14:47:53.760Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4yKzXXay_CmLeD2yorFL" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2947" dy="1854" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="-1310" y="785" width="1300" height="595" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--170" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="-1270" y="860" width="640" height="150" as="geometry" />
+          <mxGeometry x="-1275" y="850" width="645" height="160" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--183" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;dashed=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1265" y="1099" width="360" height="130" as="geometry" />
@@ -390,8 +390,8 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--159" value="主从复制&lt;br&gt;（主库读写，从库只能读）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-200" y="840" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--162" value="&lt;font color=&quot;#ff0000&quot;&gt;主从全量同步&lt;/font&gt;&lt;br&gt;（发生在从库初次加入集群以及主从之间同步发生太大的数据差异，导致环形缓冲区被覆盖）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-490" y="795" width="210" height="85" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--162" value="&lt;font color=&quot;#ff0000&quot;&gt;主从全量同步&lt;/font&gt;&lt;br&gt;（发生在从库初次加入集群以及主从之间同步发生太大的数据差异，如果环形缓冲区被数据覆盖，那么就会再一次进行全量同步）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-610" y="795" width="330" height="85" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--246" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FF0000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--163">
           <mxGeometry relative="1" as="geometry">
