@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T10:18:06.578Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cyUCRWdGQ6xM2CrhmOpt" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T10:21:50.353Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="PFxZZtdxt0K2OEDiBiyK" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2249" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -273,8 +273,16 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--128" value="持久化机制（RDB/AOF）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-180" y="320" width="130" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--133" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-410" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--131" value="AOF&lt;br&gt;Redis 写后日志" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-370" y="322.5" width="150" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--134" value="&amp;nbsp;- Alway: 同步写回。&lt;br&gt;&amp;nbsp;- Everysec: 每秒写回。&lt;br&gt;&amp;nbsp;- No: 操作系统控制写回" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-570" y="293" width="160" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
