@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T11:10:42.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="aBEmAknRtImMUv13S2eY" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T11:12:53.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="V9yr0zrq6PdlqGUTaltu" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3076" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -318,8 +318,17 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--145" value="&amp;nbsp;RDB fork 子进程进行操作，RDB 过程中，是不能处理写操作的。所以 Redis 采用“写时复制” 来解决 RDB 过程中不能写操作的问题。&lt;br&gt;&amp;nbsp;fork 子进程是会阻塞的，主进程内存越大阻塞时间越长。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;align=left;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-600" y="520" width="335" height="85" as="geometry" />
         </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--153" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--149" target="OYOejf1_E5I5xvv-p3r--152">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--149" value="RDB和AOF 混合使用&lt;br&gt;（结合了两者的优点，AOF 写入快增量，RDB重放快）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-360" y="640" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--152" value="RDB 和 AOF 混合使用存在在 *.aof 文件中，前段为aof日志，后面为rdb快照。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-690" y="640" width="290" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="OYOejf1_E5I5xvv-p3r--155" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-700" y="640" width="300" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
