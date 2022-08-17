@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T14:57:19.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5tPmMyS-zwBF8_VPt4zX" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T15:17:22.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="jsDoMtHIXKV-7ObcN2zo" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2891" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -524,7 +524,7 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--251" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.342;exitY=1.015;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;exitPerimeter=0;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--1" target="OYOejf1_E5I5xvv-p3r--250">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--250" value="&lt;font color=&quot;#000000&quot;&gt;淘汰策略&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FF0000;fillColor=none;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--250" value="&lt;font color=&quot;#000000&quot;&gt;淘汰策略&lt;br&gt;（LFU/LRU）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FF0000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="910" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
