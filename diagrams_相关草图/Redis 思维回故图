@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-17T11:15:13.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xY3s4gNPAJal672Acf1C" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-17T11:16:29.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VIokWxVsviWLTtktumUU" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3327" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -341,8 +341,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--159" value="主从同步" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-140" y="835" width="120" height="60" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--159" value="主从&lt;br&gt;（主库读写，从库只能读）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-180" y="835" width="160" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
