@@ -1,63 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T10:29:10.326Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YAn6kf-OmWQD3gm_yBoy" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T10:33:07.699Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CWIghspuzljjDXava8eK" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="2249" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontStyle=1" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-1" target="X6OcBQgp9B0aSbIeMsrt-11">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontStyle=1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-1" target="X6OcBQgp9B0aSbIeMsrt-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="272.048" y="229" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-1" target="X6OcBQgp9B0aSbIeMsrt-26">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-29" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="X6OcBQgp9B0aSbIeMsrt-1" target="X6OcBQgp9B0aSbIeMsrt-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-1" value="Kafaka&lt;br&gt;（broker）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-1" value="Kafaka&lt;br&gt;（broker）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="-30" y="300" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-16" value="&lt;font color=&quot;#ff0000&quot;&gt;多个副本，只有一个领导者副本和N-1个追随者副本&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-10" target="X6OcBQgp9B0aSbIeMsrt-17">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-16" value="&lt;font color=&quot;#ff0000&quot;&gt;多个副本，只有一个领导者副本和N-1个追随者副本&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-10" target="X6OcBQgp9B0aSbIeMsrt-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="448" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-10" target="X6OcBQgp9B0aSbIeMsrt-19">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="X6OcBQgp9B0aSbIeMsrt-10" target="X6OcBQgp9B0aSbIeMsrt-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-10" target="X6OcBQgp9B0aSbIeMsrt-33">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="X6OcBQgp9B0aSbIeMsrt-10" target="X6OcBQgp9B0aSbIeMsrt-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-10" value="分区" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-10" value="分区" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="400" y="190" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-14" value="多个分区" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontStyle=1" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-11" target="X6OcBQgp9B0aSbIeMsrt-10">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-14" value="多个分区" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontStyle=1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-11" target="X6OcBQgp9B0aSbIeMsrt-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-11" value="主题" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-11" value="主题" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="130" y="190" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-22" value="&lt;font color=&quot;#ff0000&quot;&gt;消息只会存在于某一个分区&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontStyle=1" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-13" target="X6OcBQgp9B0aSbIeMsrt-10">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-22" value="&lt;font color=&quot;#ff0000&quot;&gt;消息只会存在于某一个分区&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontStyle=1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-13" target="X6OcBQgp9B0aSbIeMsrt-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-13" value="消息" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-13" value="消息" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="800" y="190" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-17" value="副本" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-17" value="副本" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="400" y="320" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=#FF0000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-19" target="X6OcBQgp9B0aSbIeMsrt-21">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=#FF0000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="X6OcBQgp9B0aSbIeMsrt-19" target="X6OcBQgp9B0aSbIeMsrt-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-19" value="分区策略" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-19" value="分区策略" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="520" y="80" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-21" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 轮询策略 (默认策略，最合理，也是最常用的策略)&lt;/span&gt;&lt;/div&gt;2. 随机策略&lt;br&gt;3. Key-ordering（通过Key将消息分配到同一个分区）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=15;align=left;dashed=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-21" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;1. 轮询策略 (默认策略，最合理，也是最常用的策略)&lt;/span&gt;&lt;/div&gt;2. 随机策略&lt;br&gt;3. Key-ordering（通过Key将消息分配到同一个分区）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=15;align=left;dashed=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="730" y="52.5" width="380" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-26" value="&lt;font color=&quot;#000000&quot;&gt;压缩&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;sketch=1;" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-200" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-26" value="&lt;font color=&quot;#000000&quot;&gt;消息解压缩&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-126" y="170" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-33" value="单分区可以保证消息的顺序性。&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;多分区不保证消息的顺序性。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fontColor=#000000;dashed=1;" vertex="1" parent="1">
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-33" value="单分区可以保证消息的顺序性。&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;多分区不保证消息的顺序性。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fontColor=#000000;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="170" y="10" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-1" value="消息生产者压缩，Broker 保持，消费者解压缩。&lt;br&gt;压缩算法:&amp;nbsp;&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- LZ4&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Snappy&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Zstd（压缩比最高，建议使用这个算法）&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- GZIP&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-540" y="120" width="330" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
