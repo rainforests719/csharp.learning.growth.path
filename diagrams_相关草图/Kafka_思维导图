@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T10:56:34.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="aQJ4xGyleJrmVW03137X" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T10:57:51.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xSfBSXuCZ3uVyYYpce6N" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="2324" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -128,8 +128,8 @@
         <mxCell id="rrIRLCW0amsiN9H9wjlV-22" value="使用 send(callback) 回调机制" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-730" y="310" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rrIRLCW0amsiN9H9wjlV-24" value="手动提交位移和自动提交位移" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="-380" y="460" width="210" height="40" as="geometry" />
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-24" value="手动提交位移和自动提交位移&lt;br&gt;（建议使用手动提交位移，消息处理完成在去提交位移）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="460" width="210" height="70" as="geometry" />
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-25" value="Acks" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-660" y="370" width="96" height="40" as="geometry" />
