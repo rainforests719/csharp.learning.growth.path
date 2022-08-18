@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T11:30:26.707Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hGwDw8FvpS3bRV-mOV72" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T11:31:43.114Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="L8uvge1_ar5Tejn1FGwF" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="2715" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-40" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="420" width="560" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-41" value="&lt;font color=&quot;#000000&quot;&gt;# 消息可靠性&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp;- 最多一次(消息不会重复，会丢失)。&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp;- 至少一次(消息重复，不丢失)&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp;- 精确一次(消息不会重复以及丢失)&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;# 幂等性和事务就是保证“&lt;/font&gt;&lt;b style=&quot;&quot;&gt;精确一次提交&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;”。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="430" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-42" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="455" width="230" height="110" as="geometry" />
+          <mxGeometry x="-1040" y="450" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="X6OcBQgp9B0aSbIeMsrt-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontStyle=1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-1" target="X6OcBQgp9B0aSbIeMsrt-11" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -156,8 +159,11 @@
         <mxCell id="rrIRLCW0amsiN9H9wjlV-25" value="Acks" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-660" y="370" width="96" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-48" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontColor=#FF0000;" edge="1" parent="1" source="rrIRLCW0amsiN9H9wjlV-27" target="rrIRLCW0amsiN9H9wjlV-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-27" value="事务&lt;br&gt;（保证原子性和一致性，隔离级别 read committed）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="-740" y="565" width="160" height="50" as="geometry" />
+          <mxGeometry x="-760" y="565" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-30" value="&amp;nbsp;# Acks:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;-&amp;nbsp;All：确保消息发送到所有的副本。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; - Leader: 只要领导者副本收到消息就认为已提交。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; - None: 只管发送到Broker，不管消息是否真的已提交。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;align=left;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-1120" y="310" width="340" height="90" as="geometry" />
@@ -173,11 +179,11 @@
         <mxCell id="rrIRLCW0amsiN9H9wjlV-32" value="幂等性&lt;br&gt;（防止消息多次发送到分区）" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;sketch=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-700" y="430" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rrIRLCW0amsiN9H9wjlV-40" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1050" y="420" width="560" height="210" as="geometry" />
-        </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-45" value="&amp;nbsp;# consumer 事务消息读取的设置：&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;* rea_uncommitted: 可读取到任何提交的消息，如果使用的事务型 Producer就不要使用这个参数。&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;* read_committed: 只能看到已提交成功的消息和非事务Producer 写入的消息。&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp;设置: &quot;&lt;/font&gt;&lt;span style=&quot;font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;isolation.level&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&quot;,&quot;read_committed&quot;&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#FF0000;fillColor=none;align=left;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-450" y="560" width="320" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-47" value="注意: Kafka 的事务状态存储在“事务主题中的”" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1000" y="565" width="180" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
