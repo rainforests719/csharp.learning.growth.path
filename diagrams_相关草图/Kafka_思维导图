@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T11:46:42.258Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="dXMZTGdRo2wFEeJ78ji2" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T11:55:32.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cXhvFuejArsYOpDaKw_w" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="2677" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,6 +37,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-1" target="rrIRLCW0amsiN9H9wjlV-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-1" target="rrIRLCW0amsiN9H9wjlV-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="X6OcBQgp9B0aSbIeMsrt-1" value="Kafaka&lt;br&gt;（broker）" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" parent="1" vertex="1">
@@ -205,11 +208,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="rrIRLCW0amsiN9H9wjlV-54" target="rrIRLCW0amsiN9H9wjlV-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-54" value="&lt;font color=&quot;#000000&quot;&gt;消费者位移&lt;br&gt;（新版本存储在“位移主题中”）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="180" y="700" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-58" value="&amp;nbsp;# 作用就是:&amp;nbsp; 为了组内Consumer 实例成员重新分配订阅分区，可能组内某个实例宕机。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 重平衡期间组内所有的Consumer 停止消费，等待重平衡完成，如果组内上百个Consumer实例，那么这个过程将是漫长的。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="440" y="690" width="350" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.56;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="rrIRLCW0amsiN9H9wjlV-61" target="rrIRLCW0amsiN9H9wjlV-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-61" value="位移主题&lt;br&gt;（&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, Avenir, Tahoma, Arial, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, Helvetica, sans-serif; font-size: 16px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;__consumer_offsets&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="710" width="219" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-64" value="&lt;b&gt;&amp;nbsp;# 就为了保存消费者的已经消费的位置:&amp;nbsp;&lt;br&gt;&amp;nbsp;* 就是一个 Kafka 普通的主题，消息格式是 Kafka 自己定义的，以及这个主题是由Kafka 默认创建的。&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;* 内容: GroupId + 分区号 + 主题名&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="700" width="290" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
