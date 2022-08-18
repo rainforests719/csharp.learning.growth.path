@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T11:43:37.395Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JKLaaqntcsZKeGVY1koC" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T11:45:28.476Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HYDLX5wge-esKUsoB9Uo" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="2677" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,6 +106,9 @@
         <mxCell id="rrIRLCW0amsiN9H9wjlV-6" value="消费者组 Comsumer Group" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="180" y="565" width="190" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.484;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontColor=#FF0000;" edge="1" parent="1" source="rrIRLCW0amsiN9H9wjlV-7" target="rrIRLCW0amsiN9H9wjlV-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-7" value="重平衡&lt;br&gt;（组内消费者重新分配分区的订阅）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="180" y="630" width="150" height="50" as="geometry" />
         </mxCell>
@@ -204,6 +207,9 @@
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-54" value="&lt;font color=&quot;#000000&quot;&gt;消费者位移&lt;br&gt;（新版本存储在“位移主题中”）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="180" y="700" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-58" value="&amp;nbsp;* 重平衡期间组内所有的Consumer 停止消费，等待重平衡完成，如果组内上百个Consumer实例，那么这个过程将是漫长的。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="440" y="690" width="350" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
