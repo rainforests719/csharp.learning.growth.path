@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T00:58:13.842Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="rC3IrGGKxsLe783Hb7Pv" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T00:59:49.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="iNIA3G22KpeLp-PiVknS" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3076" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -548,12 +548,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-5" value="设置了过期时间的数据集&lt;br&gt;volatile" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=1;sketch=1;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1129" width="150" height="60" as="geometry" />
+          <mxGeometry x="30" y="1128" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-7" target="EQ5s94lnJQHiZtxqUj1P-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-7" target="EQ5s94lnJQHiZtxqUj1P-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-18" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-7" target="EQ5s94lnJQHiZtxqUj1P-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-7" value="在所有的数据集中&lt;br&gt;allkeys" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
@@ -563,7 +566,13 @@
           <mxGeometry x="30" y="1240" width="115" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-10" value="LFU" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="228" y="1240" width="112" height="50" as="geometry" />
+          <mxGeometry x="180" y="1240" width="112" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-5" target="EQ5s94lnJQHiZtxqUj1P-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-16" value="Random&lt;br&gt;随机" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1240" width="70" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
