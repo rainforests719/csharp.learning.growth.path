@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T14:48:39.915Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CHeDTjR6hz5PT0iLM75-" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T14:52:01.365Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="l6qkl3xXdPHRh8NuEsWB" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="3161" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -271,7 +271,7 @@
         <mxCell id="rrIRLCW0amsiN9H9wjlV-64" value="&lt;b&gt;&amp;nbsp;# 就为了保存消费者的已经消费的位置:&amp;nbsp;&lt;br&gt;&amp;nbsp;* 就是一个 Kafka 普通的主题，消息格式是 Kafka 自己定义的，以及这个主题是由Kafka 默认创建的。&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;* 内容: GroupId + 分区号 + 主题名&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;注意: 如果这个主题消息一直在膨胀，那么肯定是后台的删除这个主题消息的线程宕了。&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="-750" y="855" width="320" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="rrIRLCW0amsiN9H9wjlV-67" value="&lt;b&gt;&amp;nbsp;1. 所谓副本本质上就是一个只能追加写消息的提交日志。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2. 每个分区只能有一个领导者副本和N-1个追随者副本。&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-67" value="&lt;b&gt;&amp;nbsp;# Kafka 的副本机制只具有 “通过冗余方式实现高可用”。&lt;br&gt;&amp;nbsp;1. 所谓副本本质上就是一个只能追加写消息的提交日志。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2. 每个分区只能有一个领导者副本和N-1个追随者副本。&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="520" y="312.25" width="550" height="83.75" as="geometry" />
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-69" value="ISR" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
