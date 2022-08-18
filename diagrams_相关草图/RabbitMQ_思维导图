@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T06:25:46.340Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cOPa2892hDb16qsraN5z" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T08:22:13.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="KcZ7dGjxoKw4KyGo1Ndt" version="20.2.4" type="github">
   <diagram id="znSshX0QQh3u8jrE8Ery" name="第 1 页">
-    <mxGraphModel dx="2249" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3685" dy="2246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -136,8 +136,17 @@
         <mxCell id="Rn9wRid1taBudjc-zsMv-57" value="消费端消息确认机制&lt;br&gt;（ACK 手动签收和自动签收）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-180" y="10" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Rn9wRid1taBudjc-zsMv-59" value="生产端消息确认机制&lt;br&gt;（事务、异步回调确认）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="140" width="270" height="70" as="geometry" />
+        <mxCell id="Rn9wRid1taBudjc-zsMv-62" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-59" target="Rn9wRid1taBudjc-zsMv-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-59" value="生产端消息确认机制&lt;br&gt;（事务、confirm、异步回调确认）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="140" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-61" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;&amp;nbsp;1. 事务机制（没有友好的判断，生产端没办法百分百确认消息提交成功）。&lt;/div&gt;&lt;div&gt;&amp;nbsp;2. 消息的确认机制 confirm (单条确认/批量确认)，消息到达服务端，由服务端返回确认结果，拿不到详细的消息。&lt;/div&gt;&lt;div&gt;&amp;nbsp;3. 异步回调确认机制。&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;-&amp;nbsp;BasicReturn （消息不可达，必须为直连模式）&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;-&amp;nbsp;basicNacks （消息成功发送到 Broker 触发）&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-870" y="80" width="558" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-63" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="140" width="588" height="220" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
