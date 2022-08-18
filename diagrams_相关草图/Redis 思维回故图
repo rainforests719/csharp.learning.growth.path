@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T02:47:36.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="4LnXJNWhcOzc6qZ19PYb" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T02:49:14.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="_Gtt64ckw8lTy0Yd23T_" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3076" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -599,12 +599,26 @@
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-24" target="EQ5s94lnJQHiZtxqUj1P-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-21" target="EQ5s94lnJQHiZtxqUj1P-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="95" y="-110" />
+              <mxPoint x="160" y="-110" />
+              <mxPoint x="160" y="-205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-24" value="原子性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="30" y="-220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-30" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontColor=#000000;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="EQ5s94lnJQHiZtxqUj1P-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="-70" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-26" value="隔离性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
