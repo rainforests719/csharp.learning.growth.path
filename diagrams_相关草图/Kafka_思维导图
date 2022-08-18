@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T10:57:51.872Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xSfBSXuCZ3uVyYYpce6N" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T11:02:05.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hT8nd4Z9U2HQbGQFsI2R" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
-    <mxGraphModel dx="2324" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2707" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,11 +131,17 @@
         <mxCell id="rrIRLCW0amsiN9H9wjlV-24" value="手动提交位移和自动提交位移&lt;br&gt;（建议使用手动提交位移，消息处理完成在去提交位移）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-380" y="460" width="210" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="rrIRLCW0amsiN9H9wjlV-25" target="rrIRLCW0amsiN9H9wjlV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-25" value="Acks" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-660" y="370" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-27" value="事务" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-660" y="430" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-30" value="&amp;nbsp;# Acks:&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;-&amp;nbsp;All：确保消息发送到所有的副本。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; - Leader: 只要领导者副本收到消息就认为已提交。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; - None: 只管发送到Broker，不管消息是否真的已提交。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;align=left;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="360" width="340" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
