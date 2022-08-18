@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T02:51:26.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EkVqAx4g7UEW-FfueQGP" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T04:13:31.637Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cryS-LQvNEVckCkVZVSr" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3076" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -608,7 +608,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQ5s94lnJQHiZtxqUj1P-24" value="原子性/一致性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-24" value="原子性/一致性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="30" y="-220" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-26">
@@ -621,7 +621,7 @@
             <mxPoint x="95" y="-70" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQ5s94lnJQHiZtxqUj1P-26" value="隔离性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-26" value="隔离性" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="30" y="-170" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-27" value="两种情况:&amp;nbsp;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 入队就报错，保证原子性。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 入队时不报错，部分已经执行成功，但是后面的执行失败，不保证原子性，Redis 没有回滚机制。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
@@ -635,6 +635,12 @@
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-32" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-300" y="-160" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontColor=#000000;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-21" target="EQ5s94lnJQHiZtxqUj1P-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-35" value="持久性&lt;br&gt;（Redis 的持久化是基于RDB和AOF的，所以并不能百分百保证数据的持久性）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-110" width="320" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
