@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T11:56:12.889Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cdWG2UXyl80tJfP9U5wT" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T11:57:43.827Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="AW5vTi0kBOGvL13H0jXa" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="2677" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -223,8 +223,8 @@
         <mxCell id="rrIRLCW0amsiN9H9wjlV-61" value="位移主题&lt;br&gt;（&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, Avenir, Tahoma, Arial, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, Helvetica, sans-serif; font-size: 16px; font-weight: 400; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;__consumer_offsets&lt;/span&gt;）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-150" y="710" width="219" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rrIRLCW0amsiN9H9wjlV-64" value="&lt;b&gt;&amp;nbsp;# 就为了保存消费者的已经消费的位置:&amp;nbsp;&lt;br&gt;&amp;nbsp;* 就是一个 Kafka 普通的主题，消息格式是 Kafka 自己定义的，以及这个主题是由Kafka 默认创建的。&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;* 内容: GroupId + 分区号 + 主题名&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="700" width="290" height="100" as="geometry" />
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-64" value="&lt;b&gt;&amp;nbsp;# 就为了保存消费者的已经消费的位置:&amp;nbsp;&lt;br&gt;&amp;nbsp;* 就是一个 Kafka 普通的主题，消息格式是 Kafka 自己定义的，以及这个主题是由Kafka 默认创建的。&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;* 内容: GroupId + 分区号 + 主题名&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;注意: 如果这个主题消息一直在膨胀，那么肯定是后台的删除这个主题消息的线程宕了。&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="700" width="290" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
