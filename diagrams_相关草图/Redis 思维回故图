@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T04:16:16.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="duRnQyzzpYgp8gTHYjBp" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T04:18:05.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mFo5zG613ZZ3-KpJWcvI" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2891" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -553,7 +553,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-5" value="设置了过期时间的数据集&lt;br&gt;volatile" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=1;sketch=1;fontStyle=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="1128" width="150" height="60" as="geometry" />
+          <mxGeometry x="30" y="1120" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-7" target="EQ5s94lnJQHiZtxqUj1P-9">
           <mxGeometry relative="1" as="geometry" />
@@ -580,7 +580,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-16" value="Random&lt;br&gt;随机" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="330" y="1240" width="70" height="50" as="geometry" />
+          <mxGeometry x="340" y="1229" width="70" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-19" value="&lt;b&gt;LRU的核心思想: 如果一个数据刚刚被访问，那么这个数据肯定是热数据，还会被再次访问。&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-250" y="1430" width="520" height="30" as="geometry" />
@@ -642,8 +642,16 @@
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-35" value="持久性&lt;br&gt;（Redis 的持久化是基于RDB和AOF的，所以并不能百分百保证数据的持久性）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-430" y="-110" width="320" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.654;exitY=1.062;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#000000;exitPerimeter=0;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-5" target="EQ5s94lnJQHiZtxqUj1P-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="128" y="1290" />
+              <mxPoint x="462" y="1290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-37" value="ttl&lt;br&gt;(越早过期时间的，也就是过期时间最近的Key)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="354" y="1330" width="216" height="60" as="geometry" />
+          <mxGeometry x="354" y="1340" width="216" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
