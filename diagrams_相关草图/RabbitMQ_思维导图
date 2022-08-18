@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T05:59:00.581Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="X63KWNvCQcSGnabkD1Iw" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T06:13:03.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="TNVFHUc6_S8aWPSyh-A2" version="20.2.4" type="github">
   <diagram id="znSshX0QQh3u8jrE8Ery" name="第 1 页">
     <mxGraphModel dx="2500" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,17 +56,32 @@
         <mxCell id="Rn9wRid1taBudjc-zsMv-16" value="fanout&lt;br&gt;(扇形交换机)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="750" y="190" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-22" target="Rn9wRid1taBudjc-zsMv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-22" value="简单队列模式&lt;br&gt;（采用默认 direct）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="624" y="520" width="186" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-23" target="Rn9wRid1taBudjc-zsMv-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-23" value="工作队列模式&lt;br&gt;（采用默认 direct）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="624" y="630" width="186" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-24" target="Rn9wRid1taBudjc-zsMv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-24" value="发布订阅模式&lt;br&gt;(fanout)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="624" y="740" width="186" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-25" target="Rn9wRid1taBudjc-zsMv-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-25" value="路由模式(完全匹配)&lt;br&gt;（direct）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="624" y="840" width="186" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-47" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-26" target="Rn9wRid1taBudjc-zsMv-42">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-26" value="主题模式(模糊匹配)&lt;br&gt;(topic)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="624" y="950" width="186" height="60" as="geometry" />
@@ -89,7 +104,7 @@
         <mxCell id="Rn9wRid1taBudjc-zsMv-33" value="工作模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="430" y="430" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Rn9wRid1taBudjc-zsMv-42" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;# 采用默认直连交换机（direct）:&lt;/div&gt;&lt;div&gt;* 简单队列模式(点对点模式): 一个消息生产者和消费者以及一个队列。&lt;/div&gt;&lt;div&gt;* 工作队列模式: 一个消息生产者和队列，多个消费者，多个消费者之间是竞争关系消费。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* 发布订阅模式(广播模式 fanout):&amp;nbsp;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Rn9wRid1taBudjc-zsMv-42" value="&lt;h1&gt;&lt;br&gt;&lt;/h1&gt;&lt;div&gt;# 采用默认直连交换机（direct）:&lt;/div&gt;&lt;div&gt;* 简单队列模式(点对点模式): 一个消息生产者和消费者以及一个队列。&lt;/div&gt;&lt;div&gt;* 工作队列模式: 一个消息生产者和队列，多个消费者，多个消费者之间是竞争关系消费。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* 发布订阅模式(广播模式 fanout): 一个消息生产者和一个交换机，多个队列，与交换机绑定的队列都能收到消息。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* 路由模式(完全匹配模式 routingkey/bindingkey): 交换机和队列之间利用一个 key 进行绑定，由这个 key 判定消息发送到哪个队列。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* 主题模式(模式匹配模式): 与 direct 交换机类似，区别只是在于 key 是一个模式匹配的模式，* 多个单词，# 单个单词，多个单词之间 “.” 隔开。&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="910" y="530" width="680" height="470" as="geometry" />
         </mxCell>
       </root>
