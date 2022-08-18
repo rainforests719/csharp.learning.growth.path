@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T11:21:57.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lPPpvjaAKUW_ITj7rx2_" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T11:22:42.586Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="udAtsbZOdTkPYp9aX_E5" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="2715" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-41" value="&lt;font color=&quot;#000000&quot;&gt;# 消息可靠性&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp;- 最多一次(消息不会重复，会丢失)。&lt;/font&gt;&lt;span style=&quot;color: rgb(0, 0, 0); white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp;- 至少一次(消息重复，不丢失)&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; &amp;nbsp;- 精确一次(消息不会重复以及丢失)&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#000000&quot;&gt;# 幂等性和事务就是保证“&lt;/font&gt;&lt;b style=&quot;&quot;&gt;精确一次提交&lt;/b&gt;&lt;font color=&quot;#000000&quot;&gt;”。&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#FF0000;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="430" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-42" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="455" width="230" height="110" as="geometry" />
+        </mxCell>
         <mxCell id="X6OcBQgp9B0aSbIeMsrt-8" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.396;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;fontStyle=1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-1" target="X6OcBQgp9B0aSbIeMsrt-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="272.048" y="229" as="targetPoint" />
@@ -164,12 +170,6 @@
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-40" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1050" y="420" width="560" height="210" as="geometry" />
-        </mxCell>
-        <mxCell id="rrIRLCW0amsiN9H9wjlV-41" value="&lt;font color=&quot;#000000&quot;&gt;# 消息可靠性&lt;br&gt;&amp;nbsp; &amp;nbsp;- 最多一次(消息不会重复，会丢失)。&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;- 至少一次(消息重复，不丢失)&lt;br&gt;&amp;nbsp; &amp;nbsp;- 精确一次(消息不会重复以及丢失)&lt;br&gt;&lt;br&gt;# 幂等性和事务就是保证“精确一次提交”。&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;fontFamily=Comic Sans MS;fontColor=#FF0000;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="430" width="240" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="rrIRLCW0amsiN9H9wjlV-42" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-1040" y="455" width="230" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
