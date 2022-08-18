@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T08:27:03.751Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VOZub3YQC9GCR3SWskv1" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T08:31:57.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9KpLpih2_Q53-duTR2m9" version="20.2.4" type="github">
   <diagram id="znSshX0QQh3u8jrE8Ery" name="第 1 页">
     <mxGraphModel dx="3685" dy="2246" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -29,6 +29,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-1" target="Rn9wRid1taBudjc-zsMv-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-76" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-1" target="Rn9wRid1taBudjc-zsMv-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-1" value="RabbmitMQ" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
@@ -164,6 +167,12 @@
         </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-65" value="延迟队列" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-210" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-70" value="* 死信队列: 配置完，消息不可达、消息过期、消息长度过大，消息被拒收，就会进入死信对了。&lt;br&gt;&amp;nbsp; -&amp;nbsp;&quot;x-dead-letter-exchange&quot;,&quot;XDL-Exchange&quot;&lt;br&gt;&amp;nbsp; -&amp;nbsp;&quot;x-dead-letter-routing-key&quot;,&quot;XDL-Routingkey&quot;&lt;br&gt;&amp;nbsp; -&amp;nbsp;&quot;x-message-ttl&quot;,10000&lt;br&gt;&lt;br&gt;* 延迟队列：就是设置消息的过期时间，然后消息进入死信队列，消费死信队列，这就是延迟队列的实现。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-827" y="650" width="640" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-74" value="持久化&lt;br&gt;（交换机持久化，消息持久化，消息持久化）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="-120" width="450" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
