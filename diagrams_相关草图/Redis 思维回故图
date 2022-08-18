@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T04:21:03.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="fYxkjUvciZLWq7xKFsYw" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T04:21:31.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-rNFFfx65QwyB7v5tqZQ" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2670" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--158" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-997" y="230" width="1007" height="532.5" as="geometry" />
+        </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--169" value="&amp;nbsp;-&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;repl_backlog_buffer，复制积压缓冲区（只有主节点有）：&lt;/font&gt;这个一个环形缓冲区，基于长连接的命令传播，也会将命令写入这个缓冲区，当从库重连之后就可以到这个缓冲区拿断线之后主库执行的命令，从而进行增量同步。&lt;br&gt;&amp;nbsp;-&amp;nbsp;repl-backlog-size&lt;br&gt;&lt;br&gt;&amp;nbsp;- &lt;font color=&quot;#ff0000&quot;&gt;replication buffer，复制缓存区（每个从库都有维护一个）：&lt;/font&gt; 所有的数据都是基于这个 buffer 进行传输发送的，存储从库已同步的offset偏移量，一旦发生断连，就可以拿着这个偏移量，跟主库进行对比。&lt;br&gt;&amp;nbsp;-&amp;nbsp;&lt;span style=&quot;font-family: &amp;quot;PingFang SC&amp;quot;, Avenir, Tahoma, Arial, &amp;quot;Lantinghei SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft Sans Serif&amp;quot;, &amp;quot;WenQuanYi Micro Hei&amp;quot;, Helvetica, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);&quot;&gt;client-output-buffer-limit&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-1240" y="870" width="610" height="130" as="geometry" />
         </mxCell>
@@ -49,7 +52,7 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--240" value="" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--4" target="OYOejf1_E5I5xvv-p3r--239" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--4" value="数据类型" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--4" value="数据类型" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="250" y="585" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--44" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--7" target="OYOejf1_E5I5xvv-p3r--12" edge="1">
@@ -159,7 +162,7 @@
             <mxPoint x="-42" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--57" value="全局哈希表（用于存储全部的 Key-Value）&lt;br&gt;通过计算Key哈希值就能找到对应的哈希桶。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--57" value="全局哈希表（用于存储全部的 Key-Value）&lt;br&gt;通过计算Key哈希值就能找到对应的哈希桶。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="260" y="277.5" width="260" height="45" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" source="OYOejf1_E5I5xvv-p3r--59" target="OYOejf1_E5I5xvv-p3r--60" edge="1">
@@ -318,7 +321,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--128" value="持久化机制（RDB/AOF）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--128" value="持久化机制（RDB/AOF）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-180" y="320" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--133" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--131" target="OYOejf1_E5I5xvv-p3r--134" edge="1">
@@ -367,9 +370,6 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--155" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="-700" y="640" width="300" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--158" value="" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-997" y="230" width="1007" height="532.5" as="geometry" />
-        </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--160" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=13;exitX=0;exitY=1;exitDx=0;exitDy=0;" parent="1" source="OYOejf1_E5I5xvv-p3r--1" target="OYOejf1_E5I5xvv-p3r--159" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -387,7 +387,7 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--168" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--159" target="OYOejf1_E5I5xvv-p3r--167" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--159" value="主从复制&lt;br&gt;（主库读写，从库只能读）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--159" value="主从复制&lt;br&gt;（主库读写，从库只能读）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-200" y="840" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--162" value="&lt;font color=&quot;#ff0000&quot;&gt;主从全量同步&lt;/font&gt;&lt;br&gt;（发生在从库初次加入集群以及主从之间同步发生太大的数据差异，如果环形缓冲区被数据覆盖，那么就会再一次进行全量同步）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;fontStyle=1;" parent="1" vertex="1">
@@ -529,7 +529,7 @@
             <mxPoint x="140" y="1020" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--250" value="&lt;font color=&quot;#000000&quot;&gt;淘汰策略&lt;br&gt;（LFU/LRU）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--250" value="&lt;font color=&quot;#000000&quot;&gt;淘汰策略&lt;br&gt;（LFU/LRU）&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="80" y="910" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;curved=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-4" target="EQ5s94lnJQHiZtxqUj1P-5">
@@ -593,7 +593,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQ5s94lnJQHiZtxqUj1P-21" value="Redis 事务&lt;br&gt;ACID（原子性、一致性、持久性、隔离性）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;" vertex="1" parent="1">
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-21" value="Redis 事务&lt;br&gt;ACID（原子性、一致性、持久性、隔离性）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-60" y="-70" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-24" target="EQ5s94lnJQHiZtxqUj1P-27">
