@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T11:42:29.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="opFH8zcBz_qFs1rcoMDH" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T11:42:44.968Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="2U5mqEHQ1g7wHBVFNFdJ" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
     <mxGraphModel dx="2715" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -202,7 +202,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rrIRLCW0amsiN9H9wjlV-54" value="&lt;font color=&quot;#000000&quot;&gt;消费者位移&lt;br&gt;（新版本存储在“位移主题中”）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fontColor=#FF0000;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-54" value="&lt;font color=&quot;#000000&quot;&gt;消费者位移&lt;br&gt;（新版本存储在“位移主题中”）&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="180" y="700" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
