@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T05:19:19.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HXK88gTlLKqW57jYJsIM" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T05:26:52.191Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="gfvsbfUU_qDrYMPcETw2" version="20.2.4" type="github">
   <diagram id="znSshX0QQh3u8jrE8Ery" name="第 1 页">
     <mxGraphModel dx="2500" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,17 +17,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;endArrow=classicThin;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-1" target="Rn9wRid1taBudjc-zsMv-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-1" value="RabbmitMQ" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="220" y="220" width="100" height="100" as="geometry" />
+          <mxGeometry x="230" y="170" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="Rn9wRid1taBudjc-zsMv-5" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;endArrow=classicThin;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;endFill=1;" edge="1" parent="1" source="Rn9wRid1taBudjc-zsMv-2" target="Rn9wRid1taBudjc-zsMv-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Rn9wRid1taBudjc-zsMv-2" value="应用场景" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="350" y="70" width="76" height="40" as="geometry" />
+        <mxCell id="Rn9wRid1taBudjc-zsMv-2" value="应用场景" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="320" y="60" width="106" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="Rn9wRid1taBudjc-zsMv-9" value="&lt;h1&gt;RabbitMQ&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* 实现了“推拉模型”，区别在于: 一个是由客户端循环不间断拉取，一个是由Broker服务端推送到客户端。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* 基于AMQP协议，采用Erlang语言，处理高并发场景/Kafak 高吞吐。&lt;/div&gt;&lt;div&gt;* RabbitMQ角色“Broker、交换机、队列”。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="Rn9wRid1taBudjc-zsMv-9" value="&lt;h1&gt;RabbitMQ&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;* 实现了“推拉模型”，区别在于: 一个是由客户端循环不间断拉取，一个是由Broker服务端推送到客户端。&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;* 基于AMQP协议，采用Erlang语言，处理高并发场景/Kafak 高吞吐。&lt;/div&gt;&lt;div&gt;* RabbitMQ角色“生产者，消费者，Broker、交换机、队列，消息”。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-70" y="-500" width="1110" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Rn9wRid1taBudjc-zsMv-12" value="工作模式/交换机" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#ffe6cc;fontStyle=1;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="450" y="230" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
