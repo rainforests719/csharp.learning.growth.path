@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T01:04:56.662Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="djtmSsJC6BwNQvcShRan" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T01:13:53.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3n5DvyK80A3DQuYHdY6r" version="20.2.4" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3076" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -545,7 +545,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.589;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-5" target="EQ5s94lnJQHiZtxqUj1P-10">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="1230" />
+              <mxPoint x="238" y="1230" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-5" value="设置了过期时间的数据集&lt;br&gt;volatile" style="whiteSpace=wrap;html=1;fontFamily=Comic Sans MS;rounded=1;sketch=1;fontStyle=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="1128" width="150" height="60" as="geometry" />
@@ -568,8 +573,8 @@
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-9" value="LRU&lt;br&gt;最少使用/最不频繁使用" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="30" y="1240" width="115" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="EQ5s94lnJQHiZtxqUj1P-10" value="LFU" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="180" y="1240" width="112" height="50" as="geometry" />
+        <mxCell id="EQ5s94lnJQHiZtxqUj1P-10" value="LFU&lt;br&gt;- 访问时间利当前时间的远近&lt;br&gt;- 数据的访问次数" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1300" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EQ5s94lnJQHiZtxqUj1P-17" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="EQ5s94lnJQHiZtxqUj1P-5" target="EQ5s94lnJQHiZtxqUj1P-16">
           <mxGeometry relative="1" as="geometry" />
