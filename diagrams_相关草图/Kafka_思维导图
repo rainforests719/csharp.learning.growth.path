@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-18T12:01:19.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3SDhH4mDU4B1jzwtm0cA" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-18T13:42:32.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hv5koI4tWLUc2N5iN-YJ" version="20.2.4" type="github">
   <diagram id="YUw0cF_Q1HzVVnv16ezp" name="第 1 页">
-    <mxGraphModel dx="2677" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3161" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -75,8 +75,11 @@
         <mxCell id="X6OcBQgp9B0aSbIeMsrt-13" value="消息" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="800" y="190" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="X6OcBQgp9B0aSbIeMsrt-17" value="副本" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="180" y="340" width="96" height="40" as="geometry" />
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-68" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontColor=#FF0000;" edge="1" parent="1" source="X6OcBQgp9B0aSbIeMsrt-17" target="rrIRLCW0amsiN9H9wjlV-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X6OcBQgp9B0aSbIeMsrt-17" value="副本（领导者副本和追随者副本）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="180" y="340" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="X6OcBQgp9B0aSbIeMsrt-24" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;fontColor=#FF0000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" parent="1" source="X6OcBQgp9B0aSbIeMsrt-19" target="X6OcBQgp9B0aSbIeMsrt-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -229,6 +232,9 @@
         </mxCell>
         <mxCell id="rrIRLCW0amsiN9H9wjlV-64" value="&lt;b&gt;&amp;nbsp;# 就为了保存消费者的已经消费的位置:&amp;nbsp;&lt;br&gt;&amp;nbsp;* 就是一个 Kafka 普通的主题，消息格式是 Kafka 自己定义的，以及这个主题是由Kafka 默认创建的。&lt;br&gt;&amp;nbsp;&lt;br&gt;&amp;nbsp;* 内容: GroupId + 分区号 + 主题名&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;font color=&quot;#ff0000&quot;&gt;注意: 如果这个主题消息一直在膨胀，那么肯定是后台的删除这个主题消息的线程宕了。&lt;/font&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="-510" y="700" width="290" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rrIRLCW0amsiN9H9wjlV-67" value="&lt;b&gt;&amp;nbsp;1. 所谓副本本质上就是一个只能追加写消息的提交日志。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;2. 每个分区只能有一个领导者副本和N-1个追随者副本。&lt;/b&gt;&lt;/div&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
+          <mxGeometry x="520" y="302.5" width="550" height="117.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
