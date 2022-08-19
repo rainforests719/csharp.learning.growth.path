@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T10:55:02.274Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="I2wMuR5iju6Wg5bo6hps" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T10:57:01.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="r_2ylSDw-S-hTOL1wIOl" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="1422" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
           <mxGeometry x="330" y="370" width="164" height="50" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-21" value="行为型设计模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="334" y="520" width="166" height="50" as="geometry" />
+          <mxGeometry x="220" y="630" width="166" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-1" value="&lt;b&gt;&amp;nbsp;* 简单工厂：一个工厂负责多个类型实例的创建，根据调用方传入的参数从而创建不容的类型实体。所以简单工厂中存在多个“&lt;/b&gt;&lt;b&gt;if&lt;/b&gt;&lt;b&gt;”分支的判断。&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp;* 工厂方法：将简单工厂的一个工厂拆分成了多个工厂，一个类型对应一个具体的对象工厂。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 抽象方法：有一个个产品簇的概念，一个工厂负责创建同一个产品簇中的多个对象。&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="1050" width="570" height="120" as="geometry" />
@@ -72,6 +72,27 @@
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-8" value="通过现有的对象实例，拷贝出新的对象（分为浅拷贝“拷贝的是对于的引用”和深拷贝“得到的是新的对象”）。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="820" y="260" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-11" value="代理模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="340" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-12" value="桥接模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="400" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-13" value="装饰器模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="460" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-14" value="适配模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="520" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-15" value="门面模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="585" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-16" value="享元模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="660" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-17" value="组合模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+          <mxGeometry x="580" y="740" width="96" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
