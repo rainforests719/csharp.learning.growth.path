@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T12:02:16.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="REOmfja9nPijjxb6LRMZ" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T12:07:09.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ApRn6CGH4PzqI78vW49Q" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="3151" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -232,6 +232,9 @@
         <mxCell id="FTRQvsbxlQkEEir7xBZf-58" value="单一职责" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-240" y="-290" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-92" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="FTRQvsbxlQkEEir7xBZf-59" target="FTRQvsbxlQkEEir7xBZf-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-59" value="接口隔离原则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-240" y="30" width="140" height="40" as="geometry" />
         </mxCell>
@@ -240,6 +243,9 @@
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-61" value="里氏替换原则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-240" y="-150" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-90" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="FTRQvsbxlQkEEir7xBZf-62" target="FTRQvsbxlQkEEir7xBZf-87">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-62" value="迪米特法则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-240" y="-217.5" width="140" height="40" as="geometry" />
@@ -255,6 +261,12 @@
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-84" value="对新增开放，读修改关闭。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;hachureGap=4;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-560" y="-25" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-87" value="也叫最少知道原则，也就是一个对象没必要知道他不需要知道事情。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;hachureGap=4;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-730" y="-212.5" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-91" value="调用方不应该依赖它不需要的接口，应该只依赖它需要的接口。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;hachureGap=4;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-690" y="35" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
