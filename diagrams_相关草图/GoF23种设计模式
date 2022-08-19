@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T10:51:23.023Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WBkoi73lyF4TmjIA7zjp" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T10:54:03.010Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="eroHeNVrYRuIsIPGMRjK" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="1422" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,6 +43,9 @@
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-6" value="建造者模式 Builder" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="610" y="150" width="137" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-7" target="FTRQvsbxlQkEEir7xBZf-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-7" value="原型模式 Clone" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="610" y="260" width="160" height="40" as="geometry" />
         </mxCell>
@@ -66,6 +69,9 @@
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-5" value="用于构造比较复杂的对象时，需要传入一堆参数到构造函数。所以通过创建 Set 方法用于对象的创建（用来创建一种类型的复杂对象，通过设置不同的可选参数，定制化的创建不同的对象，已满员不同的需求）。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="800" y="152.5" width="690" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-8" value="通过现有的对象实例，拷贝出新的对象（分为浅拷贝和深拷贝）。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="820" y="260" width="440" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
