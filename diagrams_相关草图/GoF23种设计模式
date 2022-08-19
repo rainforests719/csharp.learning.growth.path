@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T11:05:12.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BvyQoBQpBDoWNFHNqPIY" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T11:05:50.639Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Nslx3TscG_z061ZJtA6V" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="2012" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -97,35 +97,35 @@
         <mxCell id="FTRQvsbxlQkEEir7xBZf-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTRQvsbxlQkEEir7xBZf-11" target="FTRQvsbxlQkEEir7xBZf-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-11" value="* 代理模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-11" value="* 代理模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="340" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FTRQvsbxlQkEEir7xBZf-12" target="FTRQvsbxlQkEEir7xBZf-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-12" value="桥接模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-12" value="桥接模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="400" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-13" value="装饰器模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-13" value="装饰器模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="460" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-14" value="适配模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-14" value="适配模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="520" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-15" value="门面模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-15" value="门面模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="585" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-16" value="享元模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-16" value="享元模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="660" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-17" value="组合模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-17" value="组合模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="740" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-27" value="在不改变原有对象的代码情况下，通过代理类给原始对象增加额外的功能（“典型实现AOP,Filter”）。&lt;br&gt;场景：日志、限流、鉴权等..." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="770" y="340" width="610" height="40" as="geometry" />
+          <mxGeometry x="735" y="330" width="610" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-29" value="将抽象和实现实现分离，使他们能够各自可独立横向或纵向扩展(组合优于继承的)。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="770" y="400" width="510" height="30" as="geometry" />
+          <mxGeometry x="735" y="395" width="510" height="30" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-32" value="工厂模式&lt;br&gt;（简单工厂、工厂方法、抽象工厂模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="610" y="50" width="380" height="60" as="geometry" />
