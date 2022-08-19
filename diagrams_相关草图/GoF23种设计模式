@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T11:44:57.180Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="hv71pLORdRvBmBzHaK6Q" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T11:45:44.479Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="zlgFLdvIG5h1RdH_upH-" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
-    <mxGraphModel dx="3842" dy="2329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3151" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,25 +212,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-55" value="设计原则" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="10" width="110" height="110" as="geometry" />
+          <mxGeometry x="110" y="-47.5" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-56" value="开闭原则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="-90" width="150" height="40" as="geometry" />
+          <mxGeometry x="-240" y="-147.5" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-57" value="依赖倒置原则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="-30" width="140" height="40" as="geometry" />
+          <mxGeometry x="-240" y="-87.5" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-58" value="单一职责" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="30" width="140" height="40" as="geometry" />
+          <mxGeometry x="-240" y="-27.5" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-59" value="接口隔离原则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="100" width="140" height="40" as="geometry" />
+          <mxGeometry x="-240" y="42.5" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-61" value="里氏替换原则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="170" width="170" height="40" as="geometry" />
+          <mxGeometry x="-240" y="112.5" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-62" value="迪米特法则" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-230" y="-160" width="150" height="40" as="geometry" />
+          <mxGeometry x="-240" y="-217.5" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
