@@ -1,10 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T06:43:37.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="dobi8YMSjqvvehc-rEP_" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T07:13:33.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="9vU5a-fWcoGScAgNk6jq" version="20.2.4" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="1185" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-2" target="El7B36Hfg6d9Vhf1fD9J-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El7B36Hfg6d9Vhf1fD9J-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-2" target="El7B36Hfg6d9Vhf1fD9J-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="El7B36Hfg6d9Vhf1fD9J-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=1;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-2" target="El7B36Hfg6d9Vhf1fD9J-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-2" value="Gof 23种设计模式" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
@@ -37,11 +43,17 @@
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-7" value="原型模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="610" y="224" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="El7B36Hfg6d9Vhf1fD9J-9" value="工厂模式&lt;br&gt;（简单工厂、工厂、抽象工厂模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" vertex="1" parent="1">
+        <mxCell id="El7B36Hfg6d9Vhf1fD9J-9" value="工厂模式&lt;br&gt;（简单工厂、工厂方法、抽象工厂模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="610" y="60" width="430" height="60" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-15" value="保证整个进程中只有一个对象实例，常驻内存，避免多次创建。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FF0000;fillColor=none;hachureGap=4;align=left;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="780" y="-15" width="443" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="El7B36Hfg6d9Vhf1fD9J-19" value="结构型设计模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="334" y="360" width="164" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="El7B36Hfg6d9Vhf1fD9J-21" value="行为型设计模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="334" y="480" width="166" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
