@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T11:04:28.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XTxMVc2ls5ljhh2p0KXs" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T11:05:12.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BvyQoBQpBDoWNFHNqPIY" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="2012" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,19 +34,19 @@
         <mxCell id="FTRQvsbxlQkEEir7xBZf-7" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-5" target="El7B36Hfg6d9Vhf1fD9J-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="El7B36Hfg6d9Vhf1fD9J-5" value="单例模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="610" y="-10" width="96" height="40" as="geometry" />
+        <mxCell id="El7B36Hfg6d9Vhf1fD9J-5" value="* 单例模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="610" y="-10" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-6" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-6" target="FTRQvsbxlQkEEir7xBZf-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="El7B36Hfg6d9Vhf1fD9J-6" value="建造者模式 Builder" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="El7B36Hfg6d9Vhf1fD9J-6" value="* 建造者模式 Builder" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="610" y="150" width="137" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-7" target="FTRQvsbxlQkEEir7xBZf-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="El7B36Hfg6d9Vhf1fD9J-7" value="原型模式 Clone" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="El7B36Hfg6d9Vhf1fD9J-7" value="* 原型模式 Clone" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="610" y="260" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curved=1;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-9" target="FTRQvsbxlQkEEir7xBZf-1">
@@ -56,7 +56,7 @@
           <mxGeometry x="610" y="50" width="380" height="60" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-15" value="保证整个进程中只有一个对象实例，常驻内存，避免多次创建。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#FF0000;fillColor=none;hachureGap=4;align=left;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="780" y="-60" width="390" height="50" as="geometry" />
+          <mxGeometry x="840" y="-80" width="390" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-19" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="El7B36Hfg6d9Vhf1fD9J-19" target="FTRQvsbxlQkEEir7xBZf-11">
           <mxGeometry relative="1" as="geometry" />
@@ -97,7 +97,7 @@
         <mxCell id="FTRQvsbxlQkEEir7xBZf-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTRQvsbxlQkEEir7xBZf-11" target="FTRQvsbxlQkEEir7xBZf-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-11" value="代理模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-11" value="* 代理模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="580" y="340" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FTRQvsbxlQkEEir7xBZf-12" target="FTRQvsbxlQkEEir7xBZf-29">
@@ -127,14 +127,8 @@
         <mxCell id="FTRQvsbxlQkEEir7xBZf-29" value="将抽象和实现实现分离，使他们能够各自可独立横向或纵向扩展(组合优于继承的)。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="770" y="400" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-31" value="单例模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-10" width="96" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-32" value="工厂模式&lt;br&gt;（简单工厂、工厂方法、抽象工厂模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="610" y="50" width="380" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-33" value="单例模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="610" y="-10" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-34" value="工厂模式&lt;br&gt;（简单工厂、工厂方法、抽象工厂模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="610" y="50" width="380" height="60" as="geometry" />
