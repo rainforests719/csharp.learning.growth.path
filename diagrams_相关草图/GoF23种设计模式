@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T11:34:54.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="rZ0w1g9Pxb5fkluhJ6zr" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T11:38:45.619Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="P2RW6g_fy-noRDvxB8Ev" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="2516" dy="1626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -175,6 +175,9 @@
         <mxCell id="FTRQvsbxlQkEEir7xBZf-43" value="观察者模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-240" y="357.5" width="96" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-54" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTRQvsbxlQkEEir7xBZf-44" target="FTRQvsbxlQkEEir7xBZf-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-44" value="模板方法模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="-240" y="422.5" width="96" height="40" as="geometry" />
         </mxCell>
@@ -186,6 +189,9 @@
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-51" value="在对象之间定义一个一对多的依赖，对一个对象状态改变的时候，所有的依赖对象都会自动收到通知，从而做出自己相应&amp;nbsp; 的行为（依赖对象：观察者，被依赖的对象：被观察者）。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-910" y="300" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-53" value="定义好一个骨架，并将具体的实现推迟到子类中去实现。模板方法模式可以在不改变整体骨架的情况下，让子类具有相应的行为。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-898.5" y="380" width="588.5" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
