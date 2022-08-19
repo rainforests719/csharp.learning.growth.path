@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T11:11:29.321Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vfZxSThx2LBl_MtnH8Ai" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T11:18:36.386Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="AkU3q4YqYqYDSJf8Djt5" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="2012" dy="1797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,17 +112,20 @@
         <mxCell id="FTRQvsbxlQkEEir7xBZf-13" value="* 装饰器模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="580" y="460" width="96" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-38" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FTRQvsbxlQkEEir7xBZf-14" target="FTRQvsbxlQkEEir7xBZf-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-14" value="适配模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="580" y="520" width="96" height="40" as="geometry" />
+          <mxGeometry x="580" y="545" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-15" value="门面模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="580" y="585" width="96" height="40" as="geometry" />
+          <mxGeometry x="580" y="620" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-16" value="享元模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="580" y="660" width="96" height="40" as="geometry" />
+          <mxGeometry x="580" y="700" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-17" value="组合模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="580" y="740" width="96" height="40" as="geometry" />
+          <mxGeometry x="580" y="790" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-27" value="在不改变原有对象的代码情况下，通过代理类给原始对象增加额外的功能（“典型实现AOP,Filter”）。&lt;br&gt;场景：日志、限流、鉴权等..." style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="735" y="330" width="610" height="40" as="geometry" />
@@ -138,6 +141,9 @@
         </mxCell>
         <mxCell id="FTRQvsbxlQkEEir7xBZf-35" value="通过各个装饰器类进行对原始对象进行包装，从而得到新的一个对象。主要是解决过于复杂的问题，通过组合替代继承。主要作用就是给原始类增强功能。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="730" y="447.5" width="485" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-37" value="将不兼容的对象通过一个适配器类可以在一起工作。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="735" y="540" width="365" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
