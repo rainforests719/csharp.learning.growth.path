@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T10:43:16.737Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yAfRjr0T-8qse4xODqP8" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T10:47:12.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="U_yiaKJooyL9o6-sPM36" version="20.2.5" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
     <mxGraphModel dx="1422" dy="1923" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-6" value="建造者模式 Builder" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="603" y="180" width="137" height="50" as="geometry" />
+          <mxGeometry x="610" y="150" width="137" height="50" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-7" value="原型模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="603" y="260" width="96" height="40" as="geometry" />
@@ -64,8 +64,8 @@
         <mxCell id="FTRQvsbxlQkEEir7xBZf-1" value="&lt;b&gt;&amp;nbsp;* 简单工厂：一个工厂负责多个类型实例的创建，根据调用方传入的参数从而创建不容的类型实体。所以简单工厂中存在多个“&lt;/b&gt;&lt;b&gt;if&lt;/b&gt;&lt;b&gt;”分支的判断。&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp;* 工厂方法：将简单工厂的一个工厂拆分成了多个工厂，一个类型对应一个具体的对象工厂。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 抽象方法：有一个个产品簇的概念，一个工厂负责创建同一个产品簇中的多个对象。&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="1050" width="570" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="FTRQvsbxlQkEEir7xBZf-5" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="780" y="165" width="660" height="80" as="geometry" />
+        <mxCell id="FTRQvsbxlQkEEir7xBZf-5" value="用于构造比较复杂的对象时，需要传入一堆参数到构造函数。所以通过创建 Set 方法用于对象的创建。" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;dashed=1;fontFamily=Comic Sans MS;fontSize=13;fontColor=#000000;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="800" y="152.5" width="640" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
