@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-19T00:07:47.182Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="B9cdSkwrBfuGZc87EFJq" version="20.2.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-19T06:41:52.922Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="REjQ6_AJ-Syh0IZ4tC-1" version="20.2.4" type="github">
   <diagram id="a_UkoVY439CFjFFyftK0" name="第 1 页">
-    <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1673" dy="2056" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,16 +26,16 @@
           <mxGeometry x="334" y="220" width="160" height="50" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-5" value="单例模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="610" y="150" width="96" height="40" as="geometry" />
+          <mxGeometry x="610" y="-10" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-6" value="建造者模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="610" y="225" width="130" height="40" as="geometry" />
+          <mxGeometry x="610" y="150" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-7" value="原型模式" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="610" y="300" width="96" height="40" as="geometry" />
+          <mxGeometry x="610" y="224" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="El7B36Hfg6d9Vhf1fD9J-9" value="工厂模式&lt;br&gt;（简单工厂、工厂、抽象工厂模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="610" y="370" width="430" height="60" as="geometry" />
+          <mxGeometry x="610" y="60" width="430" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
