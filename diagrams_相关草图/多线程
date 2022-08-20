@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T09:31:43.440Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lMebuojEpQFF_rM9gdp0" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T09:31:57.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="V-cuCNDx28rCqNShI9xU" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -165,7 +165,7 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=770;entryDy=90;entryPerimeter=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-62" target="W9Hma0hRTodE7sCn8kDO-60">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-66" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;重试失败，就变成互斥锁了&lt;/font&gt;&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-62" target="W9Hma0hRTodE7sCn8kDO-53">
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-66" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;重试失败一定次数，就变成互斥锁了&lt;/font&gt;&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.575;entryY=0.986;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-62" target="W9Hma0hRTodE7sCn8kDO-53">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="795" y="980" />
