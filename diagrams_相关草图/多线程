@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T12:53:36.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="1yZqsLEYAHyYBi6px1iK" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T12:55:17.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="DL_MrFjPAeDL1z27ugCL" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
     <mxGraphModel dx="2324" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -215,8 +215,8 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-79" value="分布式锁&lt;br&gt;（redis）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="80" y="640" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-82" value="&amp;nbsp;#&amp;nbsp; &amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="750" width="560" height="160" as="geometry" />
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-82" value="&lt;br&gt;&amp;nbsp;* SetNx Key Value 1000&lt;br&gt;&amp;nbsp;* Set Key Value NX PX 2000&lt;br&gt;&amp;nbsp;# 续命： 操作。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="740" width="500" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
