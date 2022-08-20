@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T07:27:34.442Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HK3M8S7ysnjDiMvKjCFj" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T07:28:56.184Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="vFIqbOyUiFod1VR2nOpq" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
     <mxGraphModel dx="981" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -64,8 +64,8 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-21" value="线程中两种模式&lt;br&gt;（抢占模式/合作模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="590" y="360" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-24" value="&lt;div style=&quot;&quot;&gt;&amp;nbsp;# GC 期间托管堆对象不可访问：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;* 抢占模式: 不能访问托管堆上面的对象。&lt;/span&gt;&lt;/div&gt;&amp;nbsp;* 合作模式：可以访问托管堆上的对象。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
-          <mxGeometry x="800" y="350" width="430" height="70" as="geometry" />
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-24" value="&lt;div style=&quot;&quot;&gt;&amp;nbsp;# GC 期间托管堆对象不可访问：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;* 抢占模式: 不能访问托管堆上面的对象。&lt;/span&gt;&lt;/div&gt;&amp;nbsp;* 合作模式（GC 运行状态，如果GC在运行状态那么这时候一定是无法切换成抢占模式的）：可以访问托管堆上的对象。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
+          <mxGeometry x="790" y="325" width="430" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
