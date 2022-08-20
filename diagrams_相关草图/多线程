@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T08:10:37.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nKxhr2WgzK-oGAew--tG" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T08:13:18.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3yAeL8qj7p_ojQzMYZlg" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -95,8 +95,8 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-33" value="&amp;nbsp;* ThreadLocal: 当前线程本地变量，不可跨线程。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;* AsyncLoacl: 父子线程可同步传递，但是不会相互之前有影响。&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;#&amp;nbsp; HttpContext 上下文就是这么个玩意儿。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
           <mxGeometry x="850" y="450" width="360" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-37" value="线程锁" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="70" y="400" width="96" height="40" as="geometry" />
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-37" value="原子操作/锁" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="370" y="565" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
