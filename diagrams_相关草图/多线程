@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T07:46:14.328Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="QcXQfbhBx_6wYmv1BuQm" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T07:54:14.729Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="S6GIf7n4QDzhROBq63mb" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
-    <mxGraphModel dx="813" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -81,8 +81,16 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-24" value="&lt;div style=&quot;&quot;&gt;&amp;nbsp;* 前台线程: 主线程退出，子线程继续执行完才退出。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;* 后台线程: 主线程退出，子线程退出。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;# GC 期间托管堆对象不可访问：&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;* 抢占模式: 不能访问托管堆上面的对象。&lt;/span&gt;&lt;/div&gt;&amp;nbsp;* 合作模式（GC 运行状态，如果GC在运行状态那么这时候一定是无法切换成抢占模式的）：可以访问托管堆上的对象。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
           <mxGeometry x="790" y="240" width="430" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-26" value="线程本地存储“[ThreadStatic]”&lt;br&gt;(线程本地的值不会被其它线程所修改掉)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="590" y="450" width="220" height="40" as="geometry" />
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-32" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-26" target="W9Hma0hRTodE7sCn8kDO-33">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-26" value="线程上下文/线程本地存储“[ThreadStatic]”&lt;br&gt;(线程本地的值不会被其它线程所修改掉)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="450" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-33" value="&amp;nbsp;* ThreadLocal: 当前线程。&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;* AsyncLoacl: 父子线程可同步传递，但是不会相互之前有影响。&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
+          <mxGeometry x="850" y="450" width="360" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
