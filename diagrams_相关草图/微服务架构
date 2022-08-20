@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T16:47:50.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BwYtMv2oRIWpkCXVhqqI" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T16:48:57.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="tEXMz-u07ovFL5MmIa-y" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
     <mxGraphModel dx="2178" dy="2143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -201,7 +201,7 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-66" value="通用语言/界限上下文" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="620" y="150" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-68" value="&amp;nbsp;* 通用语言：指定义上下文，或者说某一件事情大家理解，表达一致。比如：删除，软删除还是硬删除。&lt;br&gt;&amp;nbsp;* 界限上下文：通过领域边界确认语言环境，以确保大家所描述的是同一件事情。比如：商城商品的删除和windows 文件系统的删除。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 实体：具有唯一标识符，也就是主键。&lt;br&gt;&amp;nbsp;* 值对象: 不具有标识符，需要依附于某个实体存在，无自个的生命周期。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 聚合: 就是把关系密切的实体放在一起形成聚合，比如：用户，角色，权限，他们聚合在一起从而相处一个权限功能。&lt;br&gt;&amp;nbsp;* 聚合根: 把聚合中某一个实体作为一个聚合根，而且外部只能访问这个聚合根对象，不能访问非聚合对象。&lt;br&gt;&amp;nbsp;- 高内聚，低耦合。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-68" value="&amp;nbsp;* 通用语言：指定义上下文，或者说某一件事情大家理解，表达一致。比如：删除，软删除还是硬删除。&lt;br&gt;&amp;nbsp;* 界限上下文：通过领域边界确认语言环境，以确保大家所描述的是同一件事情。比如：商城商品的删除和windows 文件系统的删除。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 实体：具有唯一标识符，也就是主键。&lt;br&gt;&amp;nbsp;* 值对象: 不具有标识符，需要依附于某个实体存在，无自个的生命周期。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 聚合: 就是把关系密切的实体放在一起形成聚合，比如：用户，角色，菜单/功能，权限，他们聚合在一起从而相处一个权限功能。&lt;br&gt;&amp;nbsp;* 聚合根: 把聚合中某一个实体作为一个聚合根，而且外部只能访问这个聚合根对象，不能访问非聚合对象。&lt;br&gt;&amp;nbsp;- 高内聚，低耦合。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
           <mxGeometry x="950" y="140" width="930" height="250" as="geometry" />
         </mxCell>
       </root>
