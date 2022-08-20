@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T09:07:25.001Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="XqsMZt_Mq148IfEIyBpF" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T09:22:05.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CZ4pTkT1c8EP1FFJC7V9" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -122,6 +122,9 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-56" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-44" target="W9Hma0hRTodE7sCn8kDO-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-44" target="W9Hma0hRTodE7sCn8kDO-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W9Hma0hRTodE7sCn8kDO-44" value="线程锁&lt;br&gt;(适用于一大段一连串复杂操作)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="530" y="625" width="180" height="45" as="geometry" />
         </mxCell>
@@ -140,7 +143,7 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-52" value="&lt;b&gt;&amp;nbsp;# 自旋锁（没有线程上的上下文的切换）: &lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;用一个数值控制，锁的获取和未被获取。如果一个线程已获取到锁，那么其它的线程就一直循环等待的锁的释放，空转。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 缺点：自旋锁只能执行耗时较小的代码块，时间长造成多个线程一直循环，从而CPU资源耗费较严重。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;非公平锁，从而存在线程饥饿的问题（浪费资源，不干活）。&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;# Tread.Sleep(0)/Thread.Yield:&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Sleep(0): 切换到任意逻辑核心关联的待运行线程队列中，并且在指定时间内无法进入，0 是立马可以进入。&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; - Yield(): 只会切换到当前核心关联的待运行线程队列中，不会切换到其它核心。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
           <mxGeometry x="1010" y="680" width="760" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-53" value="互斥锁（Lock/Monitor、Mutex、）," style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-53" value="互斥锁/独占锁（Mutex）&lt;br&gt;支持跨进程" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="700" y="870" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="W9Hma0hRTodE7sCn8kDO-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=760;entryDy=90;entryPerimeter=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-55" target="W9Hma0hRTodE7sCn8kDO-52">
@@ -149,8 +152,11 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-55" value="Thread.Sleep(0)&lt;br&gt;Thread.Yield()" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="700" y="780" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-60" value="* Mutex: 支持重入。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-60" value="&amp;nbsp;* Mutex（加锁失败发生阻塞）: 支持重入，递归锁，锁的嵌套。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
           <mxGeometry x="1000" y="860" width="770" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-62" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;Lock/Monitor 混合锁&lt;br&gt;（获取失败后会重试一定的次数，超过次数之后才会安排当前线程的等待）&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="1000" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
