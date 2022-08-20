@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T09:38:13.434Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Yd_P3FUKTn1f9d7IK_Cy" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T09:47:34.157Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5jJqMZ1U72CibuLXza7I" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
     <mxGraphModel dx="1497" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -162,8 +162,8 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-55" value="Thread.Sleep(0)&lt;br&gt;Thread.Yield()" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;labelBackgroundColor=none;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="775" y="790" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-60" value="&amp;nbsp;* 独占锁 Mutex（加锁失败发生阻塞，操作系统实现的，性能相当差）: 支持重入，递归锁，锁的嵌套。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 加锁失败的线程会是释放CPU让给其它的线程，所以就发生了线程上下文的切换。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 混合锁 Lock: 锁的同步块索引，必须为引用类型。&amp;nbsp;&lt;br&gt;&lt;br&gt;&amp;nbsp;# 信号量：&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 两个状态：已被获取/未被获取。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="880" width="770" height="160" as="geometry" />
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-60" value="&amp;nbsp;* 独占锁 Mutex（加锁失败发生阻塞，操作系统实现的，性能相当差）: 支持重入，递归锁，锁的嵌套。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 加锁失败的线程会是释放CPU让给其它的线程，所以就发生了线程上下文的切换。&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;* 混合锁 Lock: &lt;/b&gt;锁的同步块索引，必须为引用类型。&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;b&gt;&amp;nbsp;# 信号量(可用于锁排队)：&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 两个状态：已被获取/未被获取。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="881" width="770" height="160" as="geometry" />
         </mxCell>
         <mxCell id="W9Hma0hRTodE7sCn8kDO-65" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=770;entryDy=90;entryPerimeter=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-62" target="W9Hma0hRTodE7sCn8kDO-60">
           <mxGeometry relative="1" as="geometry" />
@@ -189,7 +189,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="W9Hma0hRTodE7sCn8kDO-68" value="信号量&lt;br&gt;（增加和减少信号量的线程可以是不同的）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="690" y="1090" width="230" height="50" as="geometry" />
+          <mxGeometry x="700" y="1100" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
