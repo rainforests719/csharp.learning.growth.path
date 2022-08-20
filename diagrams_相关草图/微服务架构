@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T15:45:30.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VX5Pkkm4ew24lhE5n1Yt" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T15:46:38.600Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3Uqe4h_5xSW36xmlKRrU" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
     <mxGraphModel dx="2178" dy="2143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -42,7 +42,7 @@
         <mxCell id="YXeMXxJKculTzfJVYWJA-3" value="DDD&lt;br&gt;(领域驱动设计,方法论)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;fontFamily=Comic Sans MS;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="200" y="140" width="150" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="YXeMXxJKculTzfJVYWJA-4" value="实体/值对象" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" parent="1" vertex="1">
+        <mxCell id="YXeMXxJKculTzfJVYWJA-4" value="实体/值对象" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="190" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="YXeMXxJKculTzfJVYWJA-11" value="TDD&lt;br&gt;(测试驱动设计，方法论)" style="ellipse;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Comic Sans MS;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;" parent="1" vertex="1">
@@ -77,7 +77,7 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-52" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;sketch=1;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-1" target="z0bP36Qi0vMmJyPEihI5-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-1" value="领域" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-1" value="领域" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="630" y="-150" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-54" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=900;entryDy=115;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=16;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-2" target="z0bP36Qi0vMmJyPEihI5-53">
@@ -86,25 +86,25 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-2" value="子领域" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="-230" width="190" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-3" value="多种模型&lt;br style=&quot;font-size: 16px;&quot;&gt;（VO/DTO/DO/PO）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-3" value="多种模型&lt;br style=&quot;font-size: 15px;&quot;&gt;（VO/DTO/DO/PO）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="272" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-4" value="贫血/充血模型" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-4" value="贫血/充血模型" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="354" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-5" value="聚合/聚合根" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-5" value="聚合/聚合根" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="517" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-6" value="仓储" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-6" value="仓储" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="599" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-7" value="领域服务/领域事件" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-7" value="领域服务/领域事件" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="771" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-10" value="失忆症&lt;br style=&quot;font-size: 16px;&quot;&gt;（业务的自我明确）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-10" value="失忆症&lt;br style=&quot;font-size: 15px;&quot;&gt;（业务的自我明确）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="435" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-22" value="事件和命令" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=16;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-22" value="事件和命令" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="691" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;sketch=1;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-23" target="z0bP36Qi0vMmJyPEihI5-24">
@@ -174,6 +174,9 @@
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-53" value="&lt;font&gt;&lt;span&gt;&amp;nbsp;* 领域：一个组织做的事情，也就是用来确定范围/边界的。&lt;br&gt;&amp;nbsp;* 子域：对于领域进一步的细分就是子领域，每个子域对应更小的业务域/业务问题。&lt;br&gt;&amp;nbsp;* 核心域：业务的核心/公司的核心，具有核心竞争力。&lt;br&gt;&amp;nbsp;* 支撑域：核心域的周边，用于实现核心业务而不得不开发的功能，又不具备通用性。&lt;br&gt;&amp;nbsp;* 通用域：解决通用问题，为各个子域提供服务，具有通用性，不具备个性化定制（认证和权限），也可以理解为业界已经提供比较成熟通用的方案（OSS 存储服务）。&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=20;align=left;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1180" y="-205" width="900" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-62" value="领域模型" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="630" y="25" width="180" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
