@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T06:52:09.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="lwSnLbDUjw5WoWwErPtM" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T06:59:00.127Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="o5Rf_nElNnBAES9Z5idf" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
     <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -19,14 +19,20 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-4" value="线程（Thread）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="220" y="170" width="140" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.998;entryY=0.497;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-6" target="W9Hma0hRTodE7sCn8kDO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W9Hma0hRTodE7sCn8kDO-6" value="原生线程" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="440" y="130" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-7" target="W9Hma0hRTodE7sCn8kDO-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W9Hma0hRTodE7sCn8kDO-7" value="托管线程" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="440" y="210" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-11" value="* 原生线程（操作系统管理）:&amp;nbsp;&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="600" y="120" width="380" height="110" as="geometry" />
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-11" value="&lt;b&gt;&amp;nbsp;* 寄存器：&lt;/b&gt;CPU内部一些小型的存储区域，用来存储运算数据和运算结果。&lt;br&gt;&lt;b&gt;&amp;nbsp;* 原生线程（操作系统管理）:&amp;nbsp;&lt;/b&gt; 操作负责线程的创建，运行，切换和终止（单个核心同一时间只能执行单线程的对应的任务）。&lt;br&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="490" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
