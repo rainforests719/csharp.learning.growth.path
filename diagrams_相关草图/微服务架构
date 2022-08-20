@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T15:39:05.722Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="quS8QsUDgsz_ycYfscYj" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T15:45:30.183Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="VX5Pkkm4ew24lhE5n1Yt" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
     <mxGraphModel dx="2178" dy="2143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-53" value="&lt;font&gt;&lt;span&gt;&amp;nbsp;* 领域：一个组织做的事情，也就是用来确定范围/边界的。&lt;br&gt;&amp;nbsp;* 子域：对于领域进一步的细分就是子领域，每个子域对应更小的业务域/业务问题。&lt;br&gt;&amp;nbsp;* 核心域：业务的核心/公司的核心，具有核心竞争力。&lt;br&gt;&amp;nbsp;* 支撑域：核心域的周边，用于实现核心业务而不得不开发的功能，又不具备通用性。&lt;br&gt;&amp;nbsp;* 通用域：解决通用问题，为各个子域提供服务，具有通用性，不具备个性化定制（认证和权限），也可以理解为业界已经提供比较成熟通用的方案。&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=20;align=left;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-53" value="&lt;font&gt;&lt;span&gt;&amp;nbsp;* 领域：一个组织做的事情，也就是用来确定范围/边界的。&lt;br&gt;&amp;nbsp;* 子域：对于领域进一步的细分就是子领域，每个子域对应更小的业务域/业务问题。&lt;br&gt;&amp;nbsp;* 核心域：业务的核心/公司的核心，具有核心竞争力。&lt;br&gt;&amp;nbsp;* 支撑域：核心域的周边，用于实现核心业务而不得不开发的功能，又不具备通用性。&lt;br&gt;&amp;nbsp;* 通用域：解决通用问题，为各个子域提供服务，具有通用性，不具备个性化定制（认证和权限），也可以理解为业界已经提供比较成熟通用的方案（OSS 存储服务）。&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=20;align=left;fontStyle=0" vertex="1" parent="1">
           <mxGeometry x="1180" y="-205" width="900" height="210" as="geometry" />
         </mxCell>
       </root>
