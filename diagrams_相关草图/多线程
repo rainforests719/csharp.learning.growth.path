@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T08:32:08.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="WjfE4BRz8_KyekFL83jh" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T08:40:07.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HKr2YkTk-_DT1mjJJR5e" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
     <mxGraphModel dx="1422" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,6 +116,9 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-51" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-44" target="W9Hma0hRTodE7sCn8kDO-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-54" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontColor=#000000;" edge="1" parent="1" source="W9Hma0hRTodE7sCn8kDO-44" target="W9Hma0hRTodE7sCn8kDO-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="W9Hma0hRTodE7sCn8kDO-44" value="线程锁&lt;br&gt;(适用于一大段一连串复杂操作)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="530" y="625" width="180" height="45" as="geometry" />
         </mxCell>
@@ -123,10 +126,13 @@
           <mxGeometry x="800" y="554.5" width="610" height="110" as="geometry" />
         </mxCell>
         <mxCell id="W9Hma0hRTodE7sCn8kDO-50" value="自旋锁（SpinLock，最简单的线程锁）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="700" y="710" width="240" height="40" as="geometry" />
+          <mxGeometry x="700" y="690" width="240" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-52" value="&lt;b&gt;&amp;nbsp;# 自旋锁: &lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;用一个数值控制，锁的获取和未被获取。如果一个线程已获取到锁，那么其它的线程就一直循环等待的锁的释放，空转。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="739" width="490" height="160" as="geometry" />
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-52" value="&lt;b&gt;&amp;nbsp;# 自旋锁（没有线程上的上下文的切换）: &lt;/b&gt;&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;用一个数值控制，锁的获取和未被获取。如果一个线程已获取到锁，那么其它的线程就一直循环等待的锁的释放，空转。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 缺点：自旋锁只能执行耗时较小的代码块，时间长造成多个线程一直循环，从而CPU资源耗费较严重。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp; &amp;nbsp;非公平锁，从而存在线程饥饿的问题（浪费资源，不干活）。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="700" width="760" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-53" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="700" y="800" width="240" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
