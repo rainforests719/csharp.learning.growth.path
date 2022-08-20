@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T16:43:20.052Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pdyC1dG-ZU3p0HbRhV23" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T16:47:50.867Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="BwYtMv2oRIWpkCXVhqqI" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
     <mxGraphModel dx="2178" dy="2143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -115,8 +115,8 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-6" value="仓储" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="879" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-7" value="领域服务/领域事件" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="1051" width="180" height="50" as="geometry" />
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-7" value="领域服务/应用服务" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="460" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-10" value="失忆症&lt;br style=&quot;font-size: 15px;&quot;&gt;（业务的自我明确）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="715" width="190" height="50" as="geometry" />
