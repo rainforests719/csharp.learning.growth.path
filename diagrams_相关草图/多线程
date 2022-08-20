@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-20T07:04:52.919Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="k7qOQ35YEmmUy7RpMCuI" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-20T07:05:11.837Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="I_l4IDhhJxlxspwt1kfo" version="20.2.5" type="github">
   <diagram id="A67t_p96mLI3NIlMK4FN" name="第 1 页">
-    <mxGraphModel dx="1185" dy="628" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="981" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="W9Hma0hRTodE7sCn8kDO-7" value="托管线程&lt;br&gt;CLR 管理" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="440" y="200" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="W9Hma0hRTodE7sCn8kDO-11" value="&lt;b&gt;&amp;nbsp;* 寄存器：&lt;/b&gt;CPU内部一些小型的存储区域，用来存储运算数据和运算结果。&lt;br&gt;&lt;b&gt;&amp;nbsp;* 原生线程（操作系统管理）:&amp;nbsp;&lt;/b&gt; 操作负责线程的创建，运行，切换和终止（单个核心同一时间只能执行单线程的对应的任务）。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 主动切换：线程只能运行很小的一段时间，各个线程之间快速轮询切换执行。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 被动切换：中断发生，当前现在线程强制中断，上下文保存在下来。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 上下文: 线程被强制中断，某个时间点的CPU中各个寄存器的数据结构和值。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
+        <mxCell id="W9Hma0hRTodE7sCn8kDO-11" value="&lt;b&gt;&amp;nbsp;* 寄存器：&lt;/b&gt;CPU内部一些小型的存储区域，用来存储运算数据和运算结果（一个CPU核心一组寄存器）。&lt;br&gt;&lt;b&gt;&amp;nbsp;* 原生线程（操作系统管理）:&amp;nbsp;&lt;/b&gt; 操作负责线程的创建，运行，切换和终止（单个核心同一时间只能执行单线程的对应的任务）。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 主动切换：线程只能运行很小的一段时间，各个线程之间快速轮询切换执行。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 被动切换：中断发生，当前现在线程强制中断，上下文保存在下来。&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 上下文: 线程被强制中断，某个时间点的CPU中各个寄存器的数据结构和值。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
           <mxGeometry x="610" y="40" width="490" height="150" as="geometry" />
         </mxCell>
       </root>
