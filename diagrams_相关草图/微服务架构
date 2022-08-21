@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T10:41:14.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JvP6b0hxItrQYPh0C_QC" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T10:43:32.140Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="W7OkJSY2cNmcXqmYIs1f" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
-    <mxGraphModel dx="3496" dy="2205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3896" dy="2205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,13 +264,11 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-98" value="LB 进程内（Consul 服务注册与发现）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;strokeColor=#d6b656;fillColor=#fff2cc;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-672" y="-440" width="380" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-102" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#FF6392;fillColor=#FFE45E;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-101">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-1237.5" y="130" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-109" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#FF6392;fillColor=#FFE45E;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-101" target="z0bP36Qi0vMmJyPEihI5-106">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-101" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;strokeColor=#FF6392;fillColor=#FFE45E;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1380" y="100" width="30" height="60" as="geometry" />
+          <mxGeometry x="-1645" y="85" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-103" value="&amp;nbsp;* 官网功能:&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 反向路由&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 安全认证&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 限流熔断&lt;br&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 日志监控&lt;br&gt;&amp;nbsp;* Net Oclot" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=20;align=left;" vertex="1" parent="1">
           <mxGeometry x="-1180" y="-205" width="470" height="165" as="geometry" />
@@ -279,13 +277,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-104" value="API GateWay（网关）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
-          <mxGeometry x="-925" y="95" width="270" height="70" as="geometry" />
+          <mxGeometry x="-1240" y="80" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-107" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#FF6392;fillColor=#FFE45E;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-106" target="z0bP36Qi0vMmJyPEihI5-104">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-106" value="NG(负载均衡)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#000000;strokeColor=#FF6392;fillColor=#FFE45E;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-1240" y="100" width="190" height="60" as="geometry" />
+          <mxGeometry x="-1520" y="85" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
