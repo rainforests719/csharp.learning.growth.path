@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T02:04:13.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="nLgMKOPQbPTkRAOde1rk" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T02:29:18.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yZEecK7fNS9FkmaodK3s" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
     <mxGraphModel dx="2073" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,6 +34,15 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="YXeMXxJKculTzfJVYWJA-3" target="z0bP36Qi0vMmJyPEihI5-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-75" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="YXeMXxJKculTzfJVYWJA-3" target="z0bP36Qi0vMmJyPEihI5-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-78" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="YXeMXxJKculTzfJVYWJA-3" target="z0bP36Qi0vMmJyPEihI5-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-79" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="YXeMXxJKculTzfJVYWJA-3" target="z0bP36Qi0vMmJyPEihI5-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YXeMXxJKculTzfJVYWJA-3" value="DDD&lt;br&gt;(领域驱动设计,方法论)" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;fontFamily=Comic Sans MS;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;" parent="1" vertex="1">
@@ -87,10 +96,13 @@
           <mxGeometry x="890" y="-230" width="190" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-3" value="多种模型&lt;br style=&quot;font-size: 15px;&quot;&gt;（VO/DTO/DO/PO）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="720" width="190" height="50" as="geometry" />
+          <mxGeometry x="615" y="970" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-4" value="贫血/充血模型" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="822" width="190" height="50" as="geometry" />
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-81" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-4" target="z0bP36Qi0vMmJyPEihI5-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-4" value="贫血模型/充血模型" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="840" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-71" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.999;entryY=0.502;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-5" target="z0bP36Qi0vMmJyPEihI5-68">
           <mxGeometry relative="1" as="geometry" />
@@ -98,8 +110,11 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-5" value="聚合/聚合根&lt;br&gt;（高内聚，低耦合）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="320" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-6" value="仓储" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="545" y="1008" width="180" height="50" as="geometry" />
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-76" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.001;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-6" target="z0bP36Qi0vMmJyPEihI5-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-6" value="仓储/工作单元&lt;br&gt;（Repository/Unit Of Work）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="625" y="580" width="235" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-74" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-7" target="z0bP36Qi0vMmJyPEihI5-73">
           <mxGeometry relative="1" as="geometry" />
@@ -108,10 +123,10 @@
           <mxGeometry x="620" y="430" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-10" value="失忆症&lt;br style=&quot;font-size: 15px;&quot;&gt;（业务的自我明确）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="903" width="190" height="50" as="geometry" />
+          <mxGeometry x="615" y="1043" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-22" value="事件和命令" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="1100" width="180" height="50" as="geometry" />
+          <mxGeometry x="615" y="1140" width="180" height="50" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=16;sketch=1;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-23" target="z0bP36Qi0vMmJyPEihI5-24">
           <mxGeometry relative="1" as="geometry" />
@@ -193,8 +208,17 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-68" value="&amp;nbsp;* 通用语言：指定义上下文，或者说某一件事情大家理解，表达一致。比如：删除，软删除还是硬删除。&lt;br&gt;&amp;nbsp;* 界限上下文：通过领域边界确认语言环境，以确保大家所描述的是同一件事情。比如：商城商品的删除和windows 文件系统的删除。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 实体：具有唯一标识符，也就是主键。&lt;br&gt;&amp;nbsp;* 值对象: 不具有标识符，需要依附于某个实体存在，无自个的生命周期。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 聚合: 就是把关系密切的实体放在一起形成聚合，比如：用户，角色，菜单/功能，权限，他们聚合在一起从而相处一个权限功能。&lt;br&gt;&amp;nbsp;* 聚合根: 把聚合中某一个实体作为一个聚合根，而且外部只能访问这个聚合根对象，不能访问非聚合对象。&lt;br&gt;&amp;nbsp;- 高内聚，低耦合。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
           <mxGeometry x="950" y="140" width="930" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-73" value="&amp;nbsp;* 领域服务：聚合内的业务逻辑。&lt;br&gt;&amp;nbsp;* 应用服务：聚合间和外部服务的业务逻辑（应用服务协调多个领域服务）。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="420" width="830" height="90" as="geometry" />
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-73" value="&amp;nbsp;* 领域服务：聚合内的业务逻辑（非常胖）。&lt;br&gt;&amp;nbsp;* 应用服务：聚合间和外部服务的业务逻辑（应用服务协调多个领域服务）。&lt;br&gt;&lt;br&gt;&amp;nbsp;- 职责的划分。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 仓储：与数据库交道，数据库读取数据库以及对领域服务修改的数据保存回数据库。&lt;br&gt;&lt;br&gt;&amp;nbsp;*. 工作单元（事务）：聚合内的若干个操作组成一个工作单元，要么全部操作成功要么全部操作失败。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="410" width="830" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-82" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-77" target="z0bP36Qi0vMmJyPEihI5-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-77" value="领域事件/集成事件&lt;br&gt;（对修改关闭，扩展开发，中介者模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="625" y="710" width="295" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-80" value="&amp;nbsp;* 领域事件：同一个微服务内的聚合之间的时间传递，使用进程内的事件传递。&lt;br&gt;&amp;nbsp;* 集成事件：微服务之间的时间传递，比如：RabbitMQ,EventBus&lt;br&gt;&lt;br&gt;&amp;nbsp;* 贫血模式：不具有各个行为，只有属性或者成员变量。也就是没有方法，比如业务方法&lt;br&gt;&amp;nbsp;* 充血模式：不但有属性或成员变量，还具有业务行为方法。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="720" width="770" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
