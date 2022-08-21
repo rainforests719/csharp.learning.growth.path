@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T05:32:48.228Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="3eWJNrxNlQGPQrA4Bk9p" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T05:33:25.331Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JYpHpd_8NSclsNu5JYd3" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
     <mxGraphModel dx="3231" dy="2277" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -220,6 +220,11 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-80" value="&amp;nbsp;* 领域事件(MediatR)：同一个微服务内的聚合之间的时间传递，使用进程内的事件传递。&lt;br&gt;&amp;nbsp;* 集成事件（RabbitMQ）：微服务之间的时间传递，比如：RabbitMQ,EventBus&lt;br&gt;&lt;br&gt;&amp;nbsp;* 贫血模式：不具有各个行为，只有属性或者成员变量。也就是没有方法，比如业务方法&lt;br&gt;&amp;nbsp;* 充血模式：不但有属性或成员变量，还具有业务行为方法。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
           <mxGeometry x="1040" y="720" width="770" height="140" as="geometry" />
         </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-93" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#FF6392;fillColor=#FFE45E;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-83">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-110" y="1399.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-83" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#5AA9E6;strokeColor=#FF6392;fillColor=#FFE45E;" vertex="1" parent="1">
           <mxGeometry x="-930" y="1050" width="750" height="750" as="geometry" />
         </mxCell>
@@ -227,7 +232,7 @@
           <mxGeometry x="-850" y="1130" width="590" height="600" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-85" value="" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=#5AA9E6;strokeColor=#FF6392;fillColor=#FFE45E;" vertex="1" parent="1">
-          <mxGeometry x="-785" y="1195" width="460" height="460" as="geometry" />
+          <mxGeometry x="-767.5" y="1212.5" width="435" height="435" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-86" value="&lt;font color=&quot;#000000&quot;&gt;基础设计&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontColor=#5AA9E6;rotation=40;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-400" y="1140" width="120" height="70" as="geometry" />
@@ -248,7 +253,10 @@
           <mxGeometry x="-620" y="1210" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-92" value="领域模型" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Comic Sans MS;fontSize=20;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="-700" y="1280" width="300" height="290" as="geometry" />
+          <mxGeometry x="-685" y="1300" width="275" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-94" value="洋葱架构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-110" y="1380" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
