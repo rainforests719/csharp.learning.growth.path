@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T02:57:05.761Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="pGxhUB38xSSJQGJ0P4Np" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T04:26:56.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="L4p2RUUCM0FxANJWjQIw" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
     <mxGraphModel dx="2073" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -217,7 +217,7 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-77" value="领域事件/集成事件&lt;br&gt;（对修改关闭，扩展开发，中介者模式）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="625" y="710" width="295" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-80" value="&amp;nbsp;* 领域事件：同一个微服务内的聚合之间的时间传递，使用进程内的事件传递。&lt;br&gt;&amp;nbsp;* 集成事件：微服务之间的时间传递，比如：RabbitMQ,EventBus&lt;br&gt;&lt;br&gt;&amp;nbsp;* 贫血模式：不具有各个行为，只有属性或者成员变量。也就是没有方法，比如业务方法&lt;br&gt;&amp;nbsp;* 充血模式：不但有属性或成员变量，还具有业务行为方法。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-80" value="&amp;nbsp;* 领域事件(MediatR)：同一个微服务内的聚合之间的时间传递，使用进程内的事件传递。&lt;br&gt;&amp;nbsp;* 集成事件（RabbitMQ）：微服务之间的时间传递，比如：RabbitMQ,EventBus&lt;br&gt;&lt;br&gt;&amp;nbsp;* 贫血模式：不具有各个行为，只有属性或者成员变量。也就是没有方法，比如业务方法&lt;br&gt;&amp;nbsp;* 充血模式：不但有属性或成员变量，还具有业务行为方法。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
           <mxGeometry x="1040" y="720" width="770" height="140" as="geometry" />
         </mxCell>
       </root>
