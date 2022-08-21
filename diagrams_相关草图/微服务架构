@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T01:51:17.835Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="yVOKbs3mQ_KKqunHiplP" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T01:54:45.060Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YBhtQ7SRffMAQlzqxCwM" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
-    <mxGraphModel dx="2178" dy="2143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2073" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -101,8 +101,11 @@
         <mxCell id="z0bP36Qi0vMmJyPEihI5-6" value="仓储" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="545" y="1008" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="z0bP36Qi0vMmJyPEihI5-7" value="领域服务/应用服务" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="440" width="180" height="50" as="geometry" />
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-74" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=15;endArrow=classic;endFill=1;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="z0bP36Qi0vMmJyPEihI5-7" target="z0bP36Qi0vMmJyPEihI5-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-7" value="领域服务/应用服务&lt;br&gt;（Domain Servce/Application Server）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="430" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-10" value="失忆症&lt;br style=&quot;font-size: 15px;&quot;&gt;（业务的自我明确）" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fontFamily=Comic Sans MS;fontSize=15;fillColor=#ffe6cc;strokeColor=#d79b00;align=center;verticalAlign=middle;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="903" width="190" height="50" as="geometry" />
@@ -189,6 +192,9 @@
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-68" value="&amp;nbsp;* 通用语言：指定义上下文，或者说某一件事情大家理解，表达一致。比如：删除，软删除还是硬删除。&lt;br&gt;&amp;nbsp;* 界限上下文：通过领域边界确认语言环境，以确保大家所描述的是同一件事情。比如：商城商品的删除和windows 文件系统的删除。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 实体：具有唯一标识符，也就是主键。&lt;br&gt;&amp;nbsp;* 值对象: 不具有标识符，需要依附于某个实体存在，无自个的生命周期。&lt;br&gt;&lt;br&gt;&amp;nbsp;* 聚合: 就是把关系密切的实体放在一起形成聚合，比如：用户，角色，菜单/功能，权限，他们聚合在一起从而相处一个权限功能。&lt;br&gt;&amp;nbsp;* 聚合根: 把聚合中某一个实体作为一个聚合根，而且外部只能访问这个聚合根对象，不能访问非聚合对象。&lt;br&gt;&amp;nbsp;- 高内聚，低耦合。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
           <mxGeometry x="950" y="140" width="930" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-73" value="&amp;nbsp;* 领域服务：聚合内的业务逻辑。&lt;br&gt;&amp;nbsp;* 应用服务：聚合间和外部服务的业务逻辑。" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=15;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="420" width="830" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
