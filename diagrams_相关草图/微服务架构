@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-21T09:46:55.898Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="5-t4VdVZS0iB3mAXkhM6" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-21T10:33:33.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="O7wROa9k6cYB7l3RjPzY" version="20.2.5" type="github">
   <diagram id="egd8ybJRBq4JuaIXlzKb" name="第 1 页">
     <mxGraphModel dx="2554" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,6 +66,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-41" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;sketch=1;" edge="1" parent="1" source="YXeMXxJKculTzfJVYWJA-15" target="z0bP36Qi0vMmJyPEihI5-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-97" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=16;fontColor=#000000;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;strokeColor=#FF6392;fillColor=#FFE45E;" edge="1" parent="1" source="YXeMXxJKculTzfJVYWJA-15" target="z0bP36Qi0vMmJyPEihI5-95">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YXeMXxJKculTzfJVYWJA-15" value="微服务架构" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;hachureGap=4;fontFamily=Comic Sans MS;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;sketch=1;" parent="1" vertex="1">
@@ -257,6 +260,9 @@
         </mxCell>
         <mxCell id="z0bP36Qi0vMmJyPEihI5-94" value="洋葱架构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Comic Sans MS;fontColor=#000000;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="-110" y="1380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z0bP36Qi0vMmJyPEihI5-95" value="LB 负载均衡（F5 硬件/Ng&amp;nbsp;软件）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=20;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="-670" y="-360" width="376" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
