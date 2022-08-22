@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T03:55:14.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="B5dyme_5OH8T_1VrjLGf" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T03:55:43.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6JQZL_kwQuiUwF9fkTWq" version="20.2.5" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3151" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -270,7 +270,7 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--105" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1662" y="100" width="88" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--108" value="- 渐进式Rehash&lt;br&gt;- 链式哈希&lt;br&gt;解决哈希表存在的缺陷。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" vertex="1">
+        <mxCell id="OYOejf1_E5I5xvv-p3r--108" value="- 渐进式Rehash&lt;br&gt;- 链式哈希(哈希冲突)&lt;br&gt;解决哈希表存在的缺陷。" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="970" y="170" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--110" value="* next&lt;br&gt;（链式哈希指向）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;dashed=1;" parent="1" vertex="1">
