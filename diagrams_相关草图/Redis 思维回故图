@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T04:57:47.859Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Rl2YQSpN69fJ4fAY0mfQ" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T04:58:04.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uVOw5Y5qtRcd8KC-6hsi" version="20.2.5" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3432" dy="2112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -372,7 +372,7 @@
           <mxGeometry x="-520" y="357.44" width="270" height="66" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--145" value="&amp;nbsp;RDB fork 子进程进行操作，RDB 过程中，是不能处理写操作的。所以 Redis 采用“写时复制” 来解决 RDB 过程中不能写操作的问题。&lt;br&gt;&amp;nbsp;fork 子进程是会阻塞的，主进程内存越大阻塞时间越长。" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;dashed=1;align=left;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="-715" y="473.44" width="335" height="85" as="geometry" />
+          <mxGeometry x="-880" y="473.44" width="500" height="85" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--153" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--149" target="OYOejf1_E5I5xvv-p3r--152" edge="1">
           <mxGeometry relative="1" as="geometry" />
