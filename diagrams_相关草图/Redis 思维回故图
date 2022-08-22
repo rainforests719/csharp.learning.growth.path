@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T04:59:55.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="u_Q306Gc6uRHO6IjWSCc" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T05:01:14.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="do7oqsIHPxi1gCiXmlFM" version="20.2.5" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3432" dy="2112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,8 +400,8 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--168" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--159" target="OYOejf1_E5I5xvv-p3r--167" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--159" value="主从复制&lt;br&gt;（主库读写，从库只能读）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="840" width="160" height="50" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--159" value="主从复制&lt;br style=&quot;font-size: 16px;&quot;&gt;（主库读写，从库只能读）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-220" y="850" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--162" value="&lt;font color=&quot;#ff0000&quot;&gt;主从全量同步&lt;/font&gt;&lt;br&gt;（发生在从库初次加入集群以及主从之间同步发生太大的数据差异，如果环形缓冲区被数据覆盖，那么就会再一次进行全量同步）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-590" y="805" width="330" height="85" as="geometry" />
