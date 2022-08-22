@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T04:23:25.458Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="CHElKuH1YxHOUXxPyLHk" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T04:29:33.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="087_3EQjGvV1tJVaT2X3" version="20.2.5" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="2891" dy="1825" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -106,12 +106,13 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--25" target="OYOejf1_E5I5xvv-p3r--33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="P88eCPOo3a1GjLsvhFe5-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=760;entryDy=97.5;entryPerimeter=0;fontFamily=Comic Sans MS;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--25" target="P88eCPOo3a1GjLsvhFe5-6">
+        <mxCell id="P88eCPOo3a1GjLsvhFe5-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=760;entryDy=97.5;entryPerimeter=0;fontFamily=Comic Sans MS;sketch=1;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--25" target="P88eCPOo3a1GjLsvhFe5-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="660" y="590" />
+              <mxPoint x="660" y="600" />
               <mxPoint x="660" y="640" />
               <mxPoint x="1000" y="640" />
+              <mxPoint x="1000" y="638" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -659,7 +660,7 @@
           <mxGeometry x="1120" y="430" width="360" height="100" as="geometry" />
         </mxCell>
         <mxCell id="P88eCPOo3a1GjLsvhFe5-1" value="&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;h1&gt;&amp;nbsp;# NoSQL 数据库的思考点（Redis）&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;1. Key-Value 存储到外存还是内存？如何存储到内存，掉电数据如何处理？&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 外存: 没有掉电数据丢失的情况，但是性能低，吞吐低。&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- 内存: 掉电，数据如何处理，如何持久化到硬盘已达到最小粒度的数据丢失？&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Redis 存储内存，采用RDB和AOF两种持久化机制，尽量的做到数据不丢失的风险。&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;2. 丰富且高效率的数据结构用于解决哪些场景？初衷是什么?，Key-Value，Value 如何跟这么多数据类型关联起来，这里可没有“泛型类型 T”的概念？&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Redis 采用 “RedisOject” 跟各种数据结构关联起来。&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;3. 选择什么样的IO模型进行通信和数据传输（Redis 单线程，如何能支持这么并发和吞吐量）？&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;- Redis 采用IO多路复用模型（select、poll、epoll）。&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;4. 这么多的Key-Value保存在哪里呢，如何高效的查询呢 ？&lt;/div&gt;&lt;div style=&quot;font-weight: 700; text-align: left; font-size: 13px;&quot;&gt;&lt;span style=&quot;&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&amp;nbsp;- Redis 用全局哈希存储Key,Hash 单点查询支持O(1)的时间复杂度。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="20" y="-640" width="830" height="310" as="geometry" />
+          <mxGeometry x="220" y="-620" width="830" height="310" as="geometry" />
         </mxCell>
         <mxCell id="P88eCPOo3a1GjLsvhFe5-2" value="String" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontFamily=Comic Sans MS;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="507" y="390" width="90" height="40" as="geometry" />
@@ -671,7 +672,7 @@
           <mxGeometry x="1520" y="120" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="P88eCPOo3a1GjLsvhFe5-6" value="&amp;nbsp;* 哈希表存在的问题：&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;- 哈希冲突&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;- rehash 带来的性能损耗（扩容）&lt;br&gt;&lt;br&gt;&amp;nbsp;* 压缩列表和哈希表的切换条件：&lt;br&gt;&amp;nbsp;&lt;span style=&quot;font-size: 13px;&quot;&gt;1. 保存元素个数超过所配置的数量，默认: 512&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;2. 单个元素的长度超过所配置的长度，默认: 64，&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;一旦切换成Hash就不会在切换成ZipList了。&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;align=left;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="1020" y="560" width="760" height="175" as="geometry" />
+          <mxGeometry x="1030" y="561" width="760" height="175" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
