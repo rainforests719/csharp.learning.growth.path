@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T04:41:46.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="GuwVEIo36YR02-HMMAVl" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T04:56:00.788Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="mTCBzXvm_biEtnvHyq3m" version="20.2.5" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3432" dy="2112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -334,8 +334,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="P88eCPOo3a1GjLsvhFe5-13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=16;" edge="1" parent="1" source="OYOejf1_E5I5xvv-p3r--128" target="P88eCPOo3a1GjLsvhFe5-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--128" value="持久化机制（RDB/AOF）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-210" y="270" width="180" height="40" as="geometry" />
+          <mxGeometry x="-210" y="250" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--133" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--131" target="OYOejf1_E5I5xvv-p3r--134" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -666,8 +669,8 @@
         <mxCell id="P88eCPOo3a1GjLsvhFe5-6" value="&amp;nbsp;* 哈希表存在的问题：&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;- 哈希冲突&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;- rehash 带来的性能损耗（扩容）&lt;br&gt;&lt;br&gt;&amp;nbsp;* 压缩列表和哈希表的切换条件：&lt;br&gt;&amp;nbsp;&lt;span style=&quot;font-size: 13px;&quot;&gt;1. 保存元素个数超过所配置的数量，默认: 512&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&amp;nbsp;2. 单个元素的长度超过所配置的长度，默认: 64，&lt;/span&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;一旦切换成Hash就不会在切换成ZipList了。&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;align=left;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="1030" y="561" width="760" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="P88eCPOo3a1GjLsvhFe5-11" value="&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;# AOF 日志文件过大时，带来邪能问题。&lt;/span&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&amp;nbsp;- 写入效率低。&lt;/span&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&amp;nbsp;- 文件太大，Redis宕机重启重放非常缓慢。&lt;/span&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;# AOF 重写非阻塞，主进程会 fork 子进程。&lt;/span&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&amp;nbsp;- 子进程拷贝父进程的内存页表，然后父子进程执行同一块内存地址，这时候父子进程的内存地址是还没有分离的。如果父进程需要操作已存在的Key，那么就会拷贝这个Key数据重新申请内存，渐渐的父子进程的内存地址产生分离。&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="13.869999999999996" width="770" height="186.25" as="geometry" />
+        <mxCell id="P88eCPOo3a1GjLsvhFe5-11" value="&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;# AOF 日志文件过大时，带来邪能问题。&lt;/span&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&amp;nbsp;- 写入效率低。&lt;/span&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&amp;nbsp;- 文件太大，Redis宕机重启重放非常缓慢。&lt;/span&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;# AOF 重写非阻塞，主进程会 fork 子进程，fork 期间会阻塞，实例越大内存也越大阻塞时间越长。&lt;/span&gt;&lt;br style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&lt;span style=&quot;font-size: 13px; font-weight: 700;&quot;&gt;&amp;nbsp;- 子进程拷贝父进程的内存页表，然后父子进程指向同一块内存地址，这时候父子进程的内存地址是还没有分离的。如果父进程需要操作已存在的Key，那么就会拷贝这个Key数据重新申请内存，渐渐的父子进程的内存地址产生分离。&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;labelBackgroundColor=none;fontFamily=Comic Sans MS;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1100" y="13.879999999999995" width="770" height="186.25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
