@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T04:37:31.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Prr30tJ_QqnPDKw84sAp" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T04:39:02.281Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="EVmD2TBZ-pYVxcJwLIWe" version="20.2.5" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3432" dy="2112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -334,8 +334,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--128" value="持久化机制（RDB/AOF）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-150" y="268.5" width="130" height="40" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--128" value="持久化机制（RDB/AOF）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=16;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="-160" y="270" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--133" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--131" target="OYOejf1_E5I5xvv-p3r--134" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -348,8 +348,8 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--131" value="AOF 增量日志，写入快重放慢&lt;br&gt;（Redis 写后日志,记录Redis 收到的每一条命令）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-600" y="264.12" width="240" height="55.88" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--134" value="&amp;nbsp;# AOF 日志写入机制：&lt;br&gt;&amp;nbsp; &amp;nbsp; - Alway: 同步写回。&lt;br&gt;&amp;nbsp; &amp;nbsp; - Everysec: 每秒写回。&lt;br&gt;&amp;nbsp; &amp;nbsp; - No: 操作系统控制写回" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;align=left;fontStyle=1;" parent="1" vertex="1">
-          <mxGeometry x="-950" y="243.56" width="205" height="97" as="geometry" />
+        <mxCell id="OYOejf1_E5I5xvv-p3r--134" value="&amp;nbsp;# AOF 日志写入机制：&lt;br&gt;&amp;nbsp; &amp;nbsp; - Alway: 同步写回（影响性能）。&lt;br&gt;&amp;nbsp; &amp;nbsp; - Everysec: 每秒写回。&lt;br&gt;&amp;nbsp; &amp;nbsp; - No: 操作系统控制写回" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;align=left;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="-950" y="243.56" width="290" height="97" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--135" value="AOF 重写机制&lt;br&gt;（可以理解为：日志压缩）" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-910" y="373" width="170" height="40" as="geometry" />
