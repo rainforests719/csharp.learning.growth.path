@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T04:58:04.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="uVOw5Y5qtRcd8KC-6hsi" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T04:59:55.084Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="u_Q306Gc6uRHO6IjWSCc" version="20.2.5" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
     <mxGraphModel dx="3432" dy="2112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -378,7 +378,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--149" value="RDB和AOF 混合使用&lt;br&gt;（结合了两者的优点，AOF 写入快增量，RDB重放快）" style="rounded=1;whiteSpace=wrap;html=1;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fillColor=#d5e8d4;fontStyle=1;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-480" y="622.44" width="200" height="90" as="geometry" />
+          <mxGeometry x="-510" y="622.44" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--152" value="RDB 和 AOF 混合使用存在在 *.aof 文件中，前段为aof日志，后面为rdb快照。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;glass=0;sketch=1;fontFamily=Comic Sans MS;fontSize=13;fontStyle=1;" parent="1" vertex="1">
           <mxGeometry x="-883" y="622.44" width="290" height="90" as="geometry" />
