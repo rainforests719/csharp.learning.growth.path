@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-08-22T03:55:43.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6JQZL_kwQuiUwF9fkTWq" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-22T04:00:21.374Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="74PiJQweXtFbI6QzMpAG" version="20.2.5" type="github">
   <diagram id="s706LdXIDAwK8GuEoJvR" name="第 1 页">
-    <mxGraphModel dx="3151" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3432" dy="2112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -467,21 +467,6 @@
         <mxCell id="OYOejf1_E5I5xvv-p3r--211" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;glass=0;fontFamily=Comic Sans MS;fontSize=13;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1830" y="-22.5" width="840" height="472.5" as="geometry" />
         </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--220" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Comic Sans MS;fontSize=13;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OYOejf1_E5I5xvv-p3r--32" target="OYOejf1_E5I5xvv-p3r--33" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="810" y="610" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="800" y="560" />
-              <mxPoint x="920" y="560" />
-              <mxPoint x="920" y="610" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="OYOejf1_E5I5xvv-p3r--225" value="1. 保存元素个数超过所配置的数量，默认: 512&lt;br&gt;2. 单个元素的长度超过所配置的长度，默认: 64&lt;br&gt;一旦切换成Hash就不会在切换成ZipList了。" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];fontSize=13;fontFamily=Comic Sans MS;fontStyle=1;" parent="OYOejf1_E5I5xvv-p3r--220" vertex="1" connectable="0">
-          <mxGeometry x="-0.0677" y="-6" relative="1" as="geometry">
-            <mxPoint x="-34" y="15" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="OYOejf1_E5I5xvv-p3r--231" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=13;" parent="1" source="OYOejf1_E5I5xvv-p3r--7" target="OYOejf1_E5I5xvv-p3r--229" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -678,6 +663,9 @@
         </mxCell>
         <mxCell id="P88eCPOo3a1GjLsvhFe5-5" value="* value" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="1520" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P88eCPOo3a1GjLsvhFe5-6" value="&amp;nbsp;* 哈希表存在的问题：&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;- 哈希冲突&lt;br&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;- rehash 带来的性能损耗（扩容）&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;span style=&quot;font-size: 13px;&quot;&gt;1. 保存元素个数超过所配置的数量，默认: 512&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;2. 单个元素的长度超过所配置的长度，默认: 64&lt;/span&gt;&lt;br style=&quot;font-size: 13px;&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;一旦切换成Hash就不会在切换成ZipList了。&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;fontFamily=Comic Sans MS;align=left;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="1240" y="570" width="740" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
