@@ -1,17 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2022-08-23T14:49:35.682Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="SPoSAZTjkedX01nJszMJ" version="20.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-08-23T15:14:45.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="m3pEF8pfTJUzXYthqcro" version="20.2.5" type="github">
   <diagram id="rT_EG_EDEBZOGKwm7Ltq" name="第 1 页">
-    <mxGraphModel dx="1408" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3665" dy="1057" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="GHCXkCsLJSs6Cbv-dssi-10" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=18;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="GHCXkCsLJSs6Cbv-dssi-1" target="GHCXkCsLJSs6Cbv-dssi-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="GHCXkCsLJSs6Cbv-dssi-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Comic Sans MS;fontSize=18;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="GHCXkCsLJSs6Cbv-dssi-1" target="GHCXkCsLJSs6Cbv-dssi-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="GHCXkCsLJSs6Cbv-dssi-1" value="Sql Server" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rounded=1;fontStyle=1;fontFamily=Comic Sans MS;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=18;" vertex="1" parent="1">
-          <mxGeometry x="290" y="230" width="130" height="130" as="geometry" />
+          <mxGeometry x="330" y="400" width="130" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="GHCXkCsLJSs6Cbv-dssi-12" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Comic Sans MS;fontSize=18;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="GHCXkCsLJSs6Cbv-dssi-9" target="GHCXkCsLJSs6Cbv-dssi-11">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GHCXkCsLJSs6Cbv-dssi-9" value="索引&lt;br&gt;(聚集索引/非聚集索引)" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="570" y="180" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GHCXkCsLJSs6Cbv-dssi-11" value="* 唯一索引&lt;br&gt;* 聚集索引&lt;br&gt;* 非聚集索引" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="900" y="130" width="530" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GHCXkCsLJSs6Cbv-dssi-16" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Comic Sans MS;fontSize=18;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="1" source="GHCXkCsLJSs6Cbv-dssi-13" target="GHCXkCsLJSs6Cbv-dssi-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GHCXkCsLJSs6Cbv-dssi-13" value="执行计划" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontStyle=1;fontFamily=Comic Sans MS;hachureGap=4;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="280" width="350" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GHCXkCsLJSs6Cbv-dssi-15" value="&lt;div&gt;&amp;nbsp;* 表扫描(Table Scan)：当表没有聚集索引时就会发生，这时只要创建聚集索引或重整索引一般都可以解决问题。&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 聚集索引扫描(Clustered Index Scan)：有时可以认为等同于表扫描，当某列上的非聚集索引无效时会发生，这时只要创建一个非聚集索引就ok了。&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 哈希连接(Hash Join)：当连接两个表的列没有被索引时会发生，只需在这些列上创建索引即可。&lt;/div&gt;&lt;div&gt;&amp;nbsp;* 嵌套循环(Nested Loops)：当非聚集索引不包括select查询清单的列时会发生，只需要创建覆盖索引问题即可解决。&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp;* RID查找(RID Lookup)：当你有一个非聚集索引，但相同的表上却没有聚集索引时会发生，此时数据库引擎会使用行ID查找真实的行，这时一个代价高的操作，这时只要在该表上创建聚集索引即可。&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;sketch=1;fontFamily=Comic Sans MS;fontSize=18;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-1350" y="200" width="1040" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
